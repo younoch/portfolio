@@ -1,63 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h2 class="subtitle">MEVN starter template based on Nuxt-js</h2>
-      <div class="links">
-        <a
-          href="https://mevn.madlabs.xyz"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/madlabsinc/mevn-cli"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <v-app id="inspire">
+
+    <v-main class="grey lighten-2">
+      <v-container>
+        <v-row>
+          <template v-for="n in 4">
+            <v-col :key="n" class="mt-2" cols="12">
+              <strong class="younoch">Category {{ n }}</strong>
+              <v-btn color="secondary">Hedlsdf</v-btn>
+            </v-col>
+
+            <v-col v-for="j in 6" :key="`${n}${j}`" cols="6" md="2">
+              <v-sheet height="150"></v-sheet>
+            </v-col>
+          </template>
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-export default {}
+export default {
+  data: () => ({ drawer: null }),
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
