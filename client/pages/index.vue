@@ -1,8 +1,7 @@
 <template>
-  <v-app id="inspire">
-
-    <v-main class="grey lighten-2">
-      <v-container>
+  <v-app class="" id="inspire">
+    <v-main class="">
+      <v-container class="">
         <v-row>
           <template v-for="n in 4">
             <v-col :key="n" class="mt-2" cols="12">
@@ -25,3 +24,7 @@ export default {
   data: () => ({ drawer: null }),
 }
 </script>
+
+<style lang="scss" scoped>
+
+</style>
