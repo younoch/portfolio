@@ -10,6 +10,7 @@
       <v-btn
         v-for="(link, idx) in links"
         :key="idx"
+        :to="link.link"
         color="white"
         text
         rounded

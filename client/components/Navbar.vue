@@ -15,9 +15,17 @@
       ><v-icon class="mr-4"> mdi-account-card </v-icon> younoch.com</v-chip
     >
 
-    <v-tabs centered class="ml-n9" color="grey darken-1">
-      <v-tab v-for="(link, idx) in links" :key="idx" :to="link.link">
+    <v-tabs centered class="ml-n9 white--text">
+      <v-tab
+        v-for="(link, idx) in links"
+        :key="idx"
+        exact-active-class="red--text"
+        :to="link.link"
+        nuxt
+      >
+      <span class=" font-weight-bold">
         {{ link.name }}
+      </span>
       </v-tab>
     </v-tabs>
     <v-avatar
