@@ -39,7 +39,11 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~/plugins/vuetify.js', '~/plugins/mixin.js'],
+  plugins: [
+    '~/plugins/vuetify.js',
+    '~/plugins/mixin.js',
+    '~/plugins/fetchingData.js',
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -62,7 +66,11 @@ export default {
    */
   modules: [
     // Doc: https://nuxtjs.org/api/configuration-modules/
+    '@nuxtjs/axios',
   ],
+  axios: {
+    baseURL: process.env.BASE_URL,
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

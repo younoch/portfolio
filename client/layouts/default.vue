@@ -2,10 +2,9 @@
   <v-app id="inspire">
     <Navbar :links="links" />
     <v-main class="pt-0">
-        <v-app class="">
-          <Nuxt />
-        </v-app>
-      
+      <v-app class="">
+        <Nuxt />
+      </v-app>
     </v-main>
     <Footer :links="links" />
   </v-app>
@@ -25,6 +24,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  
-</style>
+<style lang="scss" scoped></style>
