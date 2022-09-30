@@ -1,3 +1,61 @@
-.younoch {
-    font-size: 98px;
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.v-application {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+//Responsive
+@mixin device-xs {
+  @media (max-width: 599px) { @content; }
+}
+@mixin device-sm {
+  @media (min-width: 600px) { @content; }
+}
+@mixin device-md {
+  @media (min-width: 960px) { @content; }
+}
+@mixin device-lg {
+  @media (min-width: 1264px) { @content; }
+}
+@mixin device-xl {
+  @media (min-width: 1904px) { @content; }
+}
+
+//Fonts
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+//Positions
+.absotute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+//Dimension
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  width: 100%;
 }

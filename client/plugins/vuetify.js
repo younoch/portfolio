@@ -6,7 +6,14 @@ export default new Vuetify({
   theme: {
     light: true,
     themes: {
-      light: {},
+      light: {
+        primary: '#3586ff',
+        main: '#3586ff'
+      },
+      dark: {
+        primary: '#3586ff',
+        main: '#3586ff'
+      },
     },
   },
 })
