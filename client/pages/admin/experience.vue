@@ -63,16 +63,19 @@
       <v-col>Resign Date</v-col>
       <v-col>Action</v-col>
     </v-row>
-    <v-row v-for="(item, index) in experienceList" :key="index">
-      <v-col>{{ item.organazationName }}</v-col>
-      <v-col>{{ item?.date.join }}</v-col>
-      <v-col>{{ item?.date.resign }}</v-col>
-      <v-col>
-        <v-btn @click="deleteExeperence(item._id)">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-      </v-col>
-    </v-row>
+    <template v-if="experienceList && experienceList.length">
+      <v-row v-for="(item, index) in experienceList" :key="index">
+        <v-col>{{ item.organazationName }}</v-col>
+        <v-col>{{ item?.date.join }}</v-col>
+        <v-col>{{ item?.date.resign }}</v-col>
+        <v-col>
+          <v-btn @click="deleteExeperence(item._id)">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
+        </v-col>
+      </v-row>
+    </template>
+    <template v-else> No Experience Here </template>
 
     <!-- <pre>{{ experienceList }}</pre> -->
   </v-container>
@@ -102,12 +105,15 @@ export default {
       this.experienceList = experiences.data
     },
     async submitExperience() {
-      const formData = new FormData()
-      Object.keys(this.experience).forEach((key) =>
-        formData.append(key, this.experience[key])
-      )
+      // const formData = new FormData()
+      // Object.keys(this.experience).forEach((key) =>
+      //   formData.append(key, this.experience[key])
+      // )
       const respons = await this.$submitData('experience', this.experience)
       console.log(respons)
+      if (respons) {
+        this.experienceList.push(this.experience)
+      }
     },
     async deleteExeperence(id) {
       const cdb = await this.$deleteData(`experience/${id}`, 'Experience')
