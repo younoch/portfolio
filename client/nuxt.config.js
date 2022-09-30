@@ -43,6 +43,7 @@ export default {
     '~/plugins/vuetify.js',
     '~/plugins/mixin.js',
     '~/plugins/fetchingData.js',
+    { src: '~/plugins/vee-validate.js', ssr: true },
   ],
   /*
    ** Auto import components
@@ -75,5 +76,7 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    transpile: ['vee-validate'],
+  },
 }
