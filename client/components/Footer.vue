@@ -48,7 +48,7 @@ footer {
     left: 0;
     height: 70px;
     width: 100%;
-    background: url(@/assets/images/wave.png);
+    background: url(/images/wave.png);
     background-size: 1000px 100px;
   }
 

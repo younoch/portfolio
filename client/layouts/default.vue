@@ -1,12 +1,16 @@
 <template>
   <v-app id="inspire">
+    <keep-alive max="10">
     <Navbar :links="links" />
+    </keep-alive>
     <v-main class="pt-0">
       <v-app class="">
         <Nuxt />
       </v-app>
     </v-main>
+    <keep-alive max="10">
     <Footer :links="links" />
+    </keep-alive>
   </v-app>
 </template>
 

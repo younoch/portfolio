@@ -30,7 +30,8 @@ const createExperience = (req, res) => {
       });
   };
   
-  const updateExperience = (req, res) => {
+const updateExperience = (req, res) => {
+  req.body.logo = req.file.path
     Experience.findByIdAndUpdate(req.params.id, req.body, {
       useFindAndModify: false,
       new: true,

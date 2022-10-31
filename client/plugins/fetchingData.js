@@ -99,12 +99,65 @@ const __axios = {
           })
       }
     },
+    async $updateData(url, formData, payload = {}) {
+      console.log(formData)
+      if (
+        payload?.validationObserver &&
+        !this.$refs[payload?.validationObserver].validate()
+      )
+        return
+
+      if (url && formData) {
+        // eslint-disable-next-line consistent-return
+        return await this.$axios
+          .put(url, formData, {
+            headers: {
+              'Content-Type': 'multipart/form-data',
+            },
+          })
+          .then((response) => {
+            let data = response
+            let msg = 'Process completed successfully!'
+
+            if (response?.data?.data?.data) data = response?.data?.data?.data
+            else if (response?.data?.data) data = response?.data?.data
+            else if (response?.data) data = response?.data
+
+            if (payload?.editMode)
+              msg = capitalize(payload?.title) + ' updated successfully!'
+            else msg = capitalize(payload?.title) + ' created successfully!'
+            if (payload?.success && payload?.success?.msg)
+              msg = payload.success.msg
+            if (
+              typeof payload.displaySuccess === 'undefined' ||
+              payload.displaySuccess
+            )
+              this.$successMessage('Success!', msg)
+
+            return { message: 'success', data }
+          })
+          .catch((error) => {
+            if (payload?.validationObserver) {
+              if (error?.response && error?.response?.status === 422)
+                this.$refs[payload?.validationObserver].setErrors(
+                  error.response.data
+                )
+            }
+            this.$errorMessage(
+              'Error',
+              payload?.error?.msg ? payload?.error?.msg : 'Some error occurred!'
+            )
+
+            return { message: 'error', data: error }
+          })
+      }
+    },
     async $deleteData(url, pageName) {
       await this.$axios
         .delete(url)
         .then((response) => {
-          console.log(response)
-          return response
+          console.log(response.data)
+          return response.data
         })
         .catch((error) => {
           this.$errorMessage('Error!', `Error deleting ${capitalize(pageName)}`)

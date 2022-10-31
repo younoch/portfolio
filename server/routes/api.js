@@ -1,4 +1,15 @@
 const express = require('express');
+const multer  = require('multer')
+// const upload = multer({ dest: './uploads/' })
+
+const fileStorage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb( null, './uploads/')
+  },
+  filename: (req, file, cb) => {
+    cb(null, new Date().toISOString() + '_' + file.originalname);
+  }
+})
 
 const {
   createData,
@@ -24,7 +35,7 @@ router
   //Experience
   .post('/experience', createExperience)
   .get('/experience', readExperience)
-  .put('/experience/:id', updateExperience)
+  .put('/experience/:id', multer({ storage: fileStorage}).single('logo'), updateExperience)
   .delete('/experience/:id', deleteExperience);
 
 module.exports = router;
