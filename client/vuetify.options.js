@@ -1,18 +1,19 @@
 export default {
-  breakpoint: {
-    mobileBreakpoint: 'xs',
-  },
+  // breakpoint: {
+  //   mobileBreakpoint: 'xs',
+  // },
   theme: {
-    light: true,
+    dark: false,
     themes: {
       light: {
-        primary: '#00A0C8',
+        primary: '#00FF00',
         secondary: '#00aced',
-        text: '#464646',
+        main: '#3586ff',
       },
       dark: {
-        primary: '#00A0C8',
+        primary: '#00FF00',
         secondary: '#00aced',
+        main: '#3586ff',
       },
     },
   },

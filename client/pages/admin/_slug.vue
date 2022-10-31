@@ -1,3 +1,6 @@
 <template>
-    <div>ps</div>
+  <div>
+    <div v-text="$moment()"></div>
+    <div>{{ $moment() }}</div>
+  </div>
 </template>

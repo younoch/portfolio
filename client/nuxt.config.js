@@ -44,6 +44,7 @@ export default {
     '~/plugins/mixin.js',
     '~/plugins/fetchingData.js',
     { src: '~/plugins/vee-validate.js', ssr: true },
+    '~/plugins/TiptapVuetify',
   ],
   /*
    ** Auto import components
@@ -56,11 +57,15 @@ export default {
    ** Nuxt.js dev-modules
    ** See https://nuxtjs.org/api/configuration-modules/#buildmodules
    */
-  buildModules: ['@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/moment'],
 
   vuetify: {
     customVariables: ['~/assets/scss/variables.scss'],
     optionsPath: './vuetify.options.js',
+  },
+
+  moment: {
+    /* module options */
   },
   /*
    ** Nuxt.js modules
@@ -77,6 +82,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    transpile: ['vee-validate'],
+    transpile: ['vee-validate', 'vuetify/lib', 'tiptap-vuetify'],
   },
 }
