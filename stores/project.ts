@@ -71,7 +71,7 @@ export const useProjectStore = defineStore('project', {
         },
         {
           id: 3,
-          name: "Project Name",
+          name: "Another Project",
           slug: 'project-name',
           tagline: 'Short catchy description',
           description: 'Detailed description of the project',
