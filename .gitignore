@@ -1,22 +1,54 @@
 # Nuxt dev/build outputs
-.data
+.output
 .nuxt
 .nitro
 .cache
+.data
+dist
 
 # Node dependencies
 node_modules
+.pnpm
+.yarn
 
 # Logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Misc
-.DS_Store
-.fleet
+# Editor directories and files
 .idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.fleet
+.DS_Store
 
-# Local env files
+# Environment files
 .env
 .env.*
 !.env.example
+.env.local
+
+# Build files
+*.tmp
+*.bak
+*.backup
+
+# Tailwind cache
+.tailwindcss
+
+# Test coverage
+coverage
+.nyc_output
+
+# System Files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini

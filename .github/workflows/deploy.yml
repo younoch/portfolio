@@ -8,21 +8,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4  # Updated to v4
       
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # Updated to v4
         with:
-          node-version: 18
+          node-version: 20  # Recommended for Nuxt 3
+          cache: 'npm'  # Faster installs
           
       - name: Install dependencies
         run: npm install
       
-      - name: Generate
+      - name: Generate static site
         run: npm run generate
       
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: .output/public  # Updated to match Nuxt 3's output
