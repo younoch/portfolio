@@ -2,55 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-$primary: #3b82f6;
+body {}
 
-:root {
-  /* Direct color values instead of theme() */
-  --ui-border-accented: #e5e7eb; // gray-200
-  --ui-border-inverted: #3b82f6; // primary-500
-  --ui-text: #111827;           // gray-900
-  --ui-bg: #ffffff;             // white
-  --ui-bg-elevated: #f3f4f6;   // gray-100
-  
-  &.dark {
-    --ui-border-accented: #374151; // gray-700
-    --ui-border-inverted: #60a5fa; // primary-400
-    --ui-text: #f9fafb;           // gray-100
-    --ui-bg: #111827;             // gray-900
-    --ui-bg-elevated: #1f2937;    // gray-800
-  }
-}
-
-/* Arrow buttons */
-[aria-label="Prev"], 
-[aria-label="Next"] {
-  background-color: var(--ui-bg) !important;
-  box-shadow: 0 0 0 1px var(--ui-border-accented), 
-              0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* Navigation dots */
-[aria-label^="Go to slide"] {
-  width: 10px;
-  height: 10px;
-  background-color: var(--ui-border-accented);
-  
-  &[aria-current="true"] {
-    background-color: var(--ui-border-inverted) !important;
-  }
-}
-
-body {
-  @apply bg-gray-50;
-  background-color: rgb(248, 249, 252);
-  color: rgb(51, 57, 68);
-  line-height: 26px;
-}
-
-.snap-mandatory {
-  scroll-snap-type: x mandatory;
-  
-  & > * {
-    scroll-snap-align: start;
-  }
-}

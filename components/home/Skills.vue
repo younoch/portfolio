@@ -22,7 +22,7 @@
           and efficient applications
         </p>
       </div>
-      <div class="flex justify-center mb-8">
+      <!-- <div class="flex justify-center mb-8">
         <div class="flex overflow-x-auto max-w-full pb-2">
           <div class="flex flex-wrap justify-center gap-2">
             <button
@@ -183,7 +183,34 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+      <UTabs :items="cetegorizedSkills" :state="state" class="mb-8">
+        <template #header="{ item }">
+          <div class="flex items-center">
+            <div class="text-blue-900 text-lg leading-7">
+              <UIcon :name="item.icon" />
+            </div>
+            <span class="font-medium text-sm leading-5 ml-2">{{ item.label }}</span>
+          </div>
+        </template>
+        <template #item="{ item }">
+          <div class="grid grid-cols-[repeat(5,208px)] gap-3">
+            <div
+              v-for="(skill, index) in item.skills"
+              :key="index"
+              class="transition-all duration-150 ease-in-out shadow-sm p-2 bg-white border border-gray-200 rounded-lg relative"
+            >
+              <div class="flex items-center">
+                <div class="text-blue-900 text-lg leading-7">
+                  <UIcon :name="skill.icon" />
+                </div>
+                <span class="font-medium text-sm leading-5 ml-2">{{ skill.name }}</span>
+              </div>
+            </div>
+          </div>
+        </template>
+
+      </UTabs>
       <div class="max-w-none mt-16 mx-auto text-base leading-7 text-gray-700 border-0 box-border">
         <div class="my-0 border-0 box-border">
           <h1 class="text-gray-900 text-4xl font-extrabold leading-10 mb-8 mt-0 m-0 border-0 box-border">
@@ -237,12 +264,51 @@
 </template>
 
 <script setup lang="ts">
+import { UTabs } from '#components';
+
 
 const state = ref<any>('');
 
-onMounted(() => {
-  console.log('Component mounted');
-});
+const cetegorizedSkills = reactive([
+  {
+    label: 'Frontend',
+    icon: 'i-uil:frontend',
+    skills: [
+      { name: 'JavaScript', icon: 'i-uil:javascript' },
+      { name: 'TypeScript', icon: 'i-uil:typescript' },
+      { name: 'Vue', icon: 'i-uil:vuejs' },
+      { name: 'Nuxt', icon: 'i-uil:nuxtjs'},
+      { name: 'Tailwind CSS', icon: 'i-uil:tailwindcss' },
+      { name: 'Bootstrap', icon: 'i-uil:bootstrap' },
+    ],
+  },
+  {
+    label: 'Backend',
+    icon: 'i-uil:backend',
+    skills: [
+      { name: 'Node.js', icon: 'i-uil:nodejs' },
+      { name: 'Express', icon: 'i-uil:express' },
+      { name: 'Django', icon: 'i-uil:djangoproject' },
+    ],
+  },
+  {
+    label: 'DevOps',
+    icon: 'i-uil:devops',
+    skills: [
+      { name: 'Docker', icon: 'i-uil:docker' },
+      { name: 'Kubernetes', icon: 'i-uil:kubernetes' },
+    ],
+  },
+  {
+    label: 'Data Science',
+    icon: 'i-uil:datascience',
+    skills: [
+      { name: 'Python', icon: 'i-uil:python' },
+      { name: 'R', icon: 'i-uil:r-project' },
+    ],
+  },
+]);
+
 </script>
 
 <style scoped lang="scss"></style>

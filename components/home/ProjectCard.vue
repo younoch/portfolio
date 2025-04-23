@@ -1,11 +1,11 @@
 <template>
   <div
-    class="flex flex-row shadow-md bg-white border border-[#f3f4f6] rounded-xl overflow-hidden h-[600px] box-border"
+    class="flex flex-row shadow-md bg-white border border-[#f3f4f6] rounded-xl overflow-hidden h-[400px] box-border"
   >
     <!-- Image Section -->
-    <div class="w-1/2 relative border-0 box-border">
+    <div class="w-2/5 relative border-0 box-border">
       <div
-        class="h-[598px] bg-[#f9fafb] flex justify-center items-center border-0 box-border"
+        class="bg-[#f9fafb] flex justify-center items-center border-0 box-border"
       >
         <img
           :src="project.thumbnail || project.preview"
@@ -29,7 +29,7 @@
     </div>
 
     <!-- Content Section -->
-    <div class="p-8 w-1/2 flex flex-col border-0 box-border">
+    <div class="p-8 w-3/5 flex flex-col border-0 box-border">
       <div class="mb-2 border-0 box-border">
         <p class="text-[#2a3b90] font-medium text-sm leading-5 mb-1">
           {{ formatDate(project.startDate) }} - {{ formatDate(project.endDate) }}

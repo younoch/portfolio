@@ -3,14 +3,15 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.scss'],
   
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/ui', '@pinia/nuxt', 'nuxt-swiper'],
-  pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'],
-  },
-  
+  modules: [ '@nuxt/ui', '@pinia/nuxt', 'nuxt-swiper'],
+  ui: {},
   app: {
     baseURL: '/portfolio/', // Replace 'portfolio' with your repo name
     buildAssetsDir: 'assets'
+  },
+  tailwindcss: {
+    configPath: '~/tailwind.config.js',
+    exposeConfig: true
   },
   postcss: {
     plugins: {

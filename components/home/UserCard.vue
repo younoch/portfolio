@@ -68,18 +68,18 @@
             </nuxt-link>
           </div>
           <div class="flex gap-4 mt-8 border-0 box-border">
-            <nuxt-link to="https://github.com/digin1"
+            <nuxt-link to="https://github.com/younoch"
               class="shadow-sm items-center bg-white rounded-full text-[#333944] flex h-9 justify-center transition-all duration-300 ease-in-out w-9 p-2 no-underline border-0 box-border">
               <UIcon name="i-mdi:github" class="text-3xl" />
             </nuxt-link>
-            <nuxt-link to="https://www.linkedin.com/in/digin/"
+            <nuxt-link to="https://www.linkedin.com/in/younoch/"
               class="shadow-sm items-center bg-white rounded-full text-[#333944] flex h-9 justify-center transition-all duration-300 ease-in-out w-9 p-2 no-underline border-0 box-border">
               <UIcon name="i-mdi:linkedin" class="text-3xl" />
             </nuxt-link>
-            <nuxt-link to="https://x.com/digin1"
+            <!-- <nuxt-link to="https://stackoverflow.com/users/14935206/younoch"
               class="shadow-sm items-center bg-white rounded-full text-[#333944] flex h-9 justify-center transition-all duration-300 ease-in-out w-9 p-2 no-underline border-0 box-border">
               <UIcon name="i-mdi:x" class="text-3xl" />
-            </nuxt-link>
+            </nuxt-link> -->
           </div>
         </div>
         <div
@@ -97,9 +97,6 @@
 
 <script setup lang="ts">
 
-onMounted(() => {
-  console.log('Component mounted');
-});
 </script>
 
 <style scoped lang="scss"></style>
