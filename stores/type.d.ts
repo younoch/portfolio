@@ -2,7 +2,7 @@
 export type ExpertiseLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert';
 export type ProjectStatus = 'completed' | 'in-progress' | 'on-hold' | 'planned';
 
-interface TechStackItem {
+interface techItem {
   label: string;
   expertise?: ExpertiseLevel;
   icon?: string;
@@ -15,7 +15,7 @@ interface KeyFeature {
 
 export interface PersonalProject {
   id: number;
-  name: string;
+  label: string;
   slug: string;
   projectOverview: string;
   startDate: string; // ISO format (YYYY-MM-DD)
@@ -28,11 +28,11 @@ export interface PersonalProject {
   role: string;
   teamSize: number;
   problemSolved: string[];
-  techStack: TechStackItem[];
+  tech: techItem[];
   screenshots?: string[];
 }
 export interface CategorizedSkill {
   label: string;
   icon: string;
-  skills: TechStackItem[];
+  skills: techItem[];
 }

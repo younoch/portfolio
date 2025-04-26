@@ -1,7 +1,7 @@
 <template>
   <section
     class="py-16 md:py-16 flex items-center bg-[#f8f9fc] min-h-[559px] overflow-hidden relative border-0 box-border">
-    <div class="px-8 max-w-[1152px] mx-auto w-full border-0 box-border">
+    <div class="max-w-5xl mx-auto w-full border-0 box-border">
       <div class="flex flex-row items-center justify-between relative z-10 border-0 box-border">
         <div class="w-full md:w-[60%] mt-0 order-1 md:order-1 mb-0 flex-1 max-w-[576px] border-0 box-border">
           <p
@@ -18,7 +18,7 @@
 
               <p class="text-lg text-gray-700 mb-4 leading-relaxed">
                 <span class="font-semibold text-gray-900">Full-Stack Developer</span> specializing in
-                <span class="bg-blue-50 text-blue-700 font-medium">AI-powered
+                <span class="bg-sky-50 text-sky-700 font-medium">AI-powered
                   applications</span>
                 and <span
                   class="bg-purple-50 text-purple-700 font-medium">high-performance
@@ -50,7 +50,7 @@
                 </li>
               </ul>
 
-              <p class="text-gray-600 italic border-l-4 border-blue-500 pl-4 py-1">
+              <p class="text-gray-600 italic border-l-4 border-sky-500 pl-4 py-1">
                 "Passionate about bridging cutting-edge technology with measurable business impact through clean
                 architecture and collaborative development."
               </p>

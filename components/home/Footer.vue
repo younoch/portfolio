@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white border-t border-gray-200 mt-auto border-0 box-border">
-    <div class="px-8 max-w-[1152px] mx-auto py-12 w-full border-0 box-border">
+    <div class="max-w-5xl mx-auto py-12 w-full border-0 box-border">
       <div class="flex flex-row justify-between items-center border-0 box-border">
         <div class="mb-0 border-0 box-border">
           <nuxt-link to="/"
@@ -20,7 +20,7 @@
                 clip-rule="evenodd" class="border-0 box-border"></path>
             </svg>
           </nuxt-link>
-          <nuxt-link to="https://linkedin.com/in/digin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+          <nuxt-link to="https://www.linkedin.com/in/younoch/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
             class="transition-all duration-150 ease-in-out text-gray-500 p-2 rounded-full ml-6 mr-0 no-underline border-0 box-border">
             <span class="sr-only">LinkedIn</span>
             <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"

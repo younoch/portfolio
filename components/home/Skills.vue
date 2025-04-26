@@ -1,9 +1,6 @@
 <template>
   <section class="bg-gray-50 py-16 border-0 border-gray-200 box-border">
-    <div class="px-8 max-w-[1152px] mx-auto relative w-full border-0 border-gray-200 box-border">
-      <div
-        class="bg-indigo-50/5 rounded-full w-64 h-64 -mt-32 -mr-32 top-0 right-0 absolute border-0 border-gray-200 box-border">
-      </div>
+    <div class="max-w-5xl mx-auto relative w-full border-0 border-gray-200 box-border">
       <div
         class="bg-[rgba(80,226,208,0.05)] rounded-full w-80 h-80 -ml-40 -mb-40 left-0 bottom-0 absolute border-0 border-gray-200 box-border">
       </div>
@@ -26,7 +23,7 @@
       <UTabs :items="cetegorizedSkills" :state="state" class="mb-8">
         <template #header="{ item }">
           <div class="flex items-center">
-            <div class="text-blue-900 text-lg leading-7">
+            <div class="text-sky-900 text-lg leading-7">
               <UIcon :name="item.icon" />
             </div>
             <span class="font-medium text-sm leading-5 ml-2">{{ item.label }}</span>
@@ -40,7 +37,7 @@
               class="transition-all duration-150 ease-in-out shadow-sm p-2 bg-white border border-gray-200 rounded-lg relative"
             >
               <div class="flex items-center">
-                <div class="text-blue-900 text-lg leading-7">
+                <div class="text-sky-900 text-lg leading-7">
                   <UIcon :name="skill.icon" />
                 </div>
                 <span class="font-medium text-sm leading-5 ml-2">{{ skill.label }}</span>

@@ -19,7 +19,7 @@
         class="gap-2 flex-wrap max-w-[90%] flex left-4 bottom-4 absolute border-0 box-border"
       >
         <span
-          v-for="tech in project.techStack"
+          v-for="tech in project.tech"
           :key="tech.label"
           class="shadow-sm text-[#2a3b90] font-medium text-xs leading-4 py-1 px-3 bg-[rgba(255,255,255,0.9)] border border-[rgba(42,59,144,0.2)] rounded-full"
         >
@@ -43,7 +43,7 @@
         class="max-h-[250px] text-[#767b84] overflow-y-auto mb-6 text-sm leading-6 max-w-[506.099px]"
       >
         <p class="my-0">
-          {{ project.description }}
+          {{ project.projectOverview }}
         </p>
       </div>
 

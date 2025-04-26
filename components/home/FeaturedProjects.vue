@@ -1,12 +1,9 @@
 <template>
   <section class="py-16 bg-[#f8f9fc] relative border-0 box-border">
     <div
-      class="bg-[rgba(42,59,144,0.05)] rounded-full w-72 h-72 -mt-20 -mr-20 top-0 right-0 absolute border-0 box-border">
-    </div>
-    <div
       class="bg-[rgba(80,226,208,0.05)] rounded-full w-96 h-96 -ml-48 -mb-48 left-0 bottom-0 absolute border-0 box-border">
     </div>
-    <div class="px-8 max-w-[1152px] mx-auto z-10 relative w-full border-0 box-border">
+    <div class="max-w-5xl mx-auto z-10 relative w-full border-0 box-border">
       <div class="text-center mb-10 border-0 box-border">
         <span class="text-[#5068e2] inline-block text-lg font-semibold leading-7 relative mb-4 border-0 box-border">My
           Work</span>
@@ -27,8 +24,8 @@
           </swiper-slide>
         </swiper-container>
         <div class="flex justify-between">
-          <UButton label="Prev" color="indigo" variant="solid" @click="swiper.prev()" />
-          <UButton label="Next" color="indigo" variant="solid" @click="swiper.next()" />
+          <UButton label="Prev" color="sky" variant="solid" @click="swiper.prev()" />
+          <UButton label="Next" color="sky" variant="solid" @click="swiper.next()" />
         </div>
       </ClientOnly>
       <div class="text-center mt-12 border-0 box-border">

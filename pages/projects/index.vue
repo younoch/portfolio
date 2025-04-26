@@ -1,15 +1,18 @@
 <script setup lang="ts">
-const { personalProjects } = useProjectStore();
+const { personalProjects, getTechList } = useProjectStore();
 </script>
 
 <template>
   <div class="bg-light min-h-screen">
-    <div class="container mx-auto px-4 py-12 pt-28">
+    <div class="container max-w-5xl mx-auto py-12 pt-28">
       <header class="mb-8">
         <h1 class="text-3xl font-bold text-gray-900 text-center">
-          My <span class="text-indigo-600">Projects</span>
+          My <span class="text-sky-600">Projects</span>
         </h1>
       </header>
+      <div class="flex justify-center items-center flex-wrap mb-4">
+        <UButton class="mx-1" v-for="(item, idx) in getTechList" :label="item" variant="outline" color="sky" :key="idx"/>
+      </div>
       <main class="flex-grow border-0 box-border mt-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div v-for="(project, index) in personalProjects" :key="index"
@@ -35,7 +38,7 @@ const { personalProjects } = useProjectStore();
               <p class="text-gray-700 text-sm mb-4 line-clamp-3" v-html="project.projectOverview"></p>
               <NuxtLink
                 :to="`/projects/${project.slug}`"
-                class="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                class="text-sky-600 hover:text-sky-800 text-sm font-medium"
               >
                 Read more
               </NuxtLink>

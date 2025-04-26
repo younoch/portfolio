@@ -40,7 +40,7 @@ export const useProjectStore = defineStore('project', {
             "Centralized sudoers configuration for better security and auditing.",
             "Implemented Infrastructure as Code (IaC) for consistent deployments."
           ],
-          techStack: [
+          tech: [
             { label: "ansible", expertise: "expert", icon: "simple-icons:ansible" },
             { label: "ubuntu", expertise: "advanced", icon: "simple-icons:ubuntu" },
             { label: "ssh", expertise: "expert", icon: "mdi:ssh" },
@@ -105,6 +105,13 @@ export const useProjectStore = defineStore('project', {
       getProjectBySlug: (state) => {
         return (slug: string) => state.personalProjects.find(project => project.slug === slug)
       },
+      getTechList: (state) => {
+        return [...new Set(
+          state.personalProjects.flatMap(project => 
+            project.tech.map(tech => tech.label)
+          )
+        )];
+      }
     },
     actions: {
       increment() {

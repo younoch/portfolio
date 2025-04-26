@@ -16,7 +16,7 @@ if (!project.value) {
   <main class="container mx-auto">
     <div class="bg-gray-50 min-h-screen pt-20">
       <section class="container mx-auto p-4">
-        <article class="card max-w-4xl mx-auto">
+        <article class="card max-w-5xl mx-auto">
           <figure class="mb-8 -mx-6 -mt-8 overflow-hidden rounded-t-lg">
             <NuxtImg
               :src="project?.thumbnail"
@@ -35,7 +35,7 @@ if (!project.value) {
           <div class="flex flex-wrap gap-x-2">
             <h5 class="text-lg font-medium">Technology Used:</h5>
             <UTooltip
-              v-for="(item, index) in project?.techStack"
+              v-for="(item, index) in project?.tech"
               arrow
               :text="item.expertise"
               :popper="{
@@ -46,7 +46,7 @@ if (!project.value) {
               :key="index"
             >
               <UBadge
-                color="indigo"
+                color="sky"
                 :key="index"
                 class="mb-2 mr-1"
                 size="lg"
@@ -58,7 +58,7 @@ if (!project.value) {
             </UTooltip>
           </div>
           <div class="grid grid-cols-3 mb-4">
-            <ULink as="button" target="_blank" :to="project?.link" active-class="text-indigo-400"> {{ project?.link }}</ULink>
+            <ULink as="button" target="_blank" :to="project?.link" active-class="text-sky-400"> {{ project?.link }}</ULink>
           </div>
           <section class="text-gray-700 prose max-w-none">
             <div class="prose max-w-none">
