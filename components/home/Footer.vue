@@ -10,7 +10,7 @@
           </p>
         </div>
         <div class="flex border-0 box-border">
-          <nuxt-link to="https://github.com/digin1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+          <nuxt-link to="https://github.com/younoch" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
             class="transition-all duration-150 ease-in-out text-gray-500 p-2 rounded-full no-underline border-0 box-border">
             <span class="sr-only">GitHub</span>
             <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"

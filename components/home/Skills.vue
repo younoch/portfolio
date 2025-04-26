@@ -22,168 +22,7 @@
           and efficient applications
         </p>
       </div>
-      <!-- <div class="flex justify-center mb-8">
-        <div class="flex overflow-x-auto max-w-full pb-2">
-          <div class="flex flex-wrap justify-center gap-2">
-            <button
-              class="bg-blue-900 text-white font-medium px-6 py-2 rounded-full shadow-md transition-all duration-300 ease-in-out whitespace-nowrap">
-              All
-              <span
-                class="ml-1 text-blue-900 text-xs bg-white px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                36
-              </span>
-            </button>
-            <button
-              class="bg-transparent text-gray-500 font-medium px-6 py-2 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap">
-              Frontend
-              <span
-                class="ml-1 text-gray-500 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                8
-              </span>
-            </button>
-            <button
-              class="bg-transparent text-gray-500 font-medium px-6 py-2 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap">
-              Backend
-              <span
-                class="ml-1 text-gray-500 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                8
-              </span>
-            </button>
-            <button
-              class="bg-transparent text-gray-500 font-medium px-6 py-2 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap">
-              Datascience
-              <span
-                class="ml-1 text-gray-500 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                7
-              </span>
-            </button>
-            <button
-              class="bg-transparent text-gray-500 font-medium px-6 py-2 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap">
-              Devops
-              <span
-                class="ml-1 text-gray-500 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                14
-              </span>
-            </button>
-            <button
-              class="bg-transparent text-gray-500 font-medium px-6 py-2 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap">
-              Tools
-              <span
-                class="ml-1 text-gray-500 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full flex items-center justify-center">
-                1
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="mb-8 border border-transparent">
-        <h3 class="text-gray-700 font-medium text-lg leading-7 pb-2 border-b border-gray-200 mb-3">
-          Frontend
-        </h3>
-        <div class="grid grid-cols-[repeat(5,208px)] gap-3">
-          <div
-            class="transition-all duration-150 ease-in-out shadow-sm p-2 bg-white border border-gray-200 rounded-lg relative">
-            <div class="flex items-center">
-              <div class="text-blue-900 text-lg leading-7">
-                <UIcon name="i-uil:react" />
-              </div>
-              <span class="font-medium text-sm leading-5 ml-2">React</span>
-            </div>
-            <div
-              class="absolute opacity-0 transform translate-x-[-96px] w-48 mb-2 z-20 left-[103px] bottom-[44px] invisible transition-opacity duration-200 ease-in-out">
-              <div class="shadow-lg text-sm leading-5 p-3 bg-white border border-gray-200 rounded-lg">
-                <div class="flex items-center mb-2">
-                  <div class="text-blue-900 text-lg leading-7">
-                    <UIcon name="i-uil:react" />
-                  </div>
-                  <span class="font-semibold ml-2">React</span>
-                </div>
-                <div class="flex justify-between mb-2">
-                  <span class="text-gray-600 text-xs leading-4">4+ years</span>
-                  <span class="text-blue-900 font-medium text-xs leading-4">Expert</span>
-                </div>
-                <div class="bg-gray-100 rounded-full overflow-hidden w-full h-1.5 mb-2">
-                  <div class="w-[95%] bg-gradient-to-r from-blue-900 to-blue-500 rounded-full h-1.5"></div>
-                </div>
-                <div class="flex gap-1 mt-2 flex-wrap">
-                  <span class="text-gray-700 text-xs leading-4 py-0.5 px-1.5 bg-gray-100 rounded-full">frontend</span>
-                </div>
-                <div
-                  class="bg-white border-gray-200 border-r border-b transform rotate-45 w-2 h-2 absolute left-[96px] bottom-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mb-8 border-0 box-border">
-        <h3
-          class="text-gray-700 font-medium text-lg leading-7 pb-2 border-b border-gray-200 mb-3 m-0 border-0 box-border">
-          Backend
-        </h3>
-        <div class="grid grid-cols-5 gap-3 border-0 box-border" style="grid-template-columns: repeat(5, 208px)">
-          <div
-            class="transition-all duration-150 ease-in-out shadow-sm py-2 px-3 bg-white border border-gray-200 rounded-lg relative box-border">
-            <div class="flex items-center border-0 box-border">
-              <div class="text-blue-900 text-lg leading-7 border-0 box-border">
-                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js" role="img"
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                  class="inline-block align-middle overflow-visible box-content"
-                  style="height: 18px; vertical-align: -2.25px">
-                  <path fill="currentColor"
-                    d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
-                    class="border-0 box-border"></path>
-                </svg>
-              </div>
-              <span class="font-medium text-sm leading-5 ml-2 border-0 box-border">JavaScript</span>
-            </div>
-            <div
-              class="transition-opacity duration-200 ease-in-out opacity-0 -translate-x-96 w-48 mb-2 z-20 left-[103px] bottom-[44px] absolute invisible border-0 box-border">
-              <div class="shadow-md text-sm leading-5 p-3 bg-white border border-gray-200 rounded-lg box-border">
-                <div class="flex items-center mb-2 border-0 box-border">
-                  <div class="text-blue-900 text-lg leading-7 border-0 box-border">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="js" role="img"
-                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                      class="inline-block align-middle overflow-visible box-content"
-                      style="height: 18px; vertical-align: -2.25px">
-                      <path fill="currentColor"
-                        d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
-                        class="border-0 box-border"></path>
-                    </svg>
-                  </div>
-                  <span class="font-semibold ml-2 border-0 box-border">JavaScript</span>
-                </div>
-                <div class="flex justify-between mb-2 border-0 box-border">
-                  <span class="text-gray-600 text-xs leading-4 border-0 box-border">5+ years</span>
-                  <span class="text-blue-900 font-medium text-xs leading-4 border-0 box-border">Expert</span>
-                </div>
-                <div class="bg-gray-100 rounded-full overflow-hidden w-full h-1.5 mb-2 border-0 box-border">
-                  <div
-                    class="w-[90%] bg-gradient-to-r from-blue-900 to-blue-600 rounded-full h-1.5 border-0 box-border">
-                  </div>
-                </div>
-                <div class="flex flex-wrap gap-1 mt-2 border-0 box-border">
-                  <span
-                    class="text-gray-700 text-xs leading-4 py-0.5 px-1.5 bg-gray-100 rounded-full border-0 box-border">frontend</span>
-                  <span
-                    class="text-gray-700 text-xs leading-4 py-0.5 px-1.5 bg-gray-100 rounded-full border-0 box-border">backend</span>
-                </div>
-                <div class="bg-white border-r border-b border-gray-200 w-2 h-2 left-24 bottom-0 absolute box-border"
-                  style="
-                            transform: matrix(
-                              0.707107,
-                              0.707107,
-                              -0.707107,
-                              0.707107,
-                              -4,
-                              4
-                            );
-                          "></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
+      
       <UTabs :items="cetegorizedSkills" :state="state" class="mb-8">
         <template #header="{ item }">
           <div class="flex items-center">
@@ -204,7 +43,7 @@
                 <div class="text-blue-900 text-lg leading-7">
                   <UIcon :name="skill.icon" />
                 </div>
-                <span class="font-medium text-sm leading-5 ml-2">{{ skill.name }}</span>
+                <span class="font-medium text-sm leading-5 ml-2">{{ skill.label }}</span>
               </div>
             </div>
           </div>
@@ -264,51 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import { UTabs } from '#components';
 
-
-const state = ref<any>('');
-
-const cetegorizedSkills = reactive([
-  {
-    label: 'Frontend',
-    icon: 'i-uil:frontend',
-    skills: [
-      { name: 'JavaScript', icon: 'i-uil:javascript' },
-      { name: 'TypeScript', icon: 'i-uil:typescript' },
-      { name: 'Vue', icon: 'i-uil:vuejs' },
-      { name: 'Nuxt', icon: 'i-uil:nuxtjs'},
-      { name: 'Tailwind CSS', icon: 'i-uil:tailwindcss' },
-      { name: 'Bootstrap', icon: 'i-uil:bootstrap' },
-    ],
-  },
-  {
-    label: 'Backend',
-    icon: 'i-uil:backend',
-    skills: [
-      { name: 'Node.js', icon: 'i-uil:nodejs' },
-      { name: 'Express', icon: 'i-uil:express' },
-      { name: 'Django', icon: 'i-uil:djangoproject' },
-    ],
-  },
-  {
-    label: 'DevOps',
-    icon: 'i-uil:devops',
-    skills: [
-      { name: 'Docker', icon: 'i-uil:docker' },
-      { name: 'Kubernetes', icon: 'i-uil:kubernetes' },
-    ],
-  },
-  {
-    label: 'Data Science',
-    icon: 'i-uil:datascience',
-    skills: [
-      { name: 'Python', icon: 'i-uil:python' },
-      { name: 'R', icon: 'i-uil:r-project' },
-    ],
-  },
-]);
+const { cetegorizedSkills } = useProjectStore();
 
 </script>
-
-<style scoped lang="scss"></style>

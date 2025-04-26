@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {}
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+      @apply mb-3; /* .75rem = mb-3 in Tailwind's spacing scale */
+    }
+  }
 

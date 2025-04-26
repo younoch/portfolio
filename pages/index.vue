@@ -12,6 +12,8 @@ import UserCard from "@/components/home/UserCard.vue";
 import FeaturedProjects from "@/components/home/FeaturedProjects.vue";
 import Skills from "@/components/home/Skills.vue";
 
+
+
 interface Project {
   id: number;
   name: string;
