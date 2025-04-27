@@ -1,46 +1,59 @@
 <template>
-  <section class="py-16 bg-[#f8f9fc] relative border-0 box-border">
-    <div
-      class="bg-[rgba(80,226,208,0.05)] rounded-full w-96 h-96 -ml-48 -mb-48 left-0 bottom-0 absolute border-0 box-border">
+  <section class="py-4 md:py-12 bg-[#f8f9fc] relative">
+  <div class="bg-[rgba(80,226,208,0.05)] rounded-full w-64 h-64 md:w-96 md:h-96 -ml-32 md:-ml-48 -mb-32 md:-mb-48 left-0 bottom-0 absolute"></div>
+  
+  <div class="container px-4 mx-auto relative z-10">
+    <!-- Header section -->
+    <div class="text-center mb-6 md:mb-10">
+      <span class="text-sky-700 text-base md:text-lg font-semibold mb-2 md:mb-4 block">My Work</span>
+      <h2 class="text-[#1a1e2e] text-2xl md:text-4xl font-bold tracking-tight md:tracking-[-0.9px] leading-[1.3] md:leading-[45px] mb-3 md:mb-4">
+        Featured <span class="text-sky-700">Projects</span>
+      </h2>
+      <p class="text-[#767b84] text-sm md:text-lg leading-5 md:leading-7 max-w-full md:max-w-[90%] mx-auto">
+        Explore the creative solutions and innovative projects I've been working on
+      </p>
     </div>
-    <div class="max-w-5xl mx-auto z-10 relative w-full border-0 box-border">
-      <div class="text-center mb-10 border-0 box-border">
-        <span class="text-sky-700 inline-block text-lg font-semibold leading-7 relative mb-4 border-0 box-border">My
-          Work</span>
-        <h2 class="text-[#1a1e2e] text-4xl font-bold tracking-[-0.9px] leading-[45px] mb-4 border-0 box-border">
-          Featured
-          <span class="text-sky-700 relative z-10 border-0 box-border">Projects</span>
-        </h2>
-        <p class="text-[#767b84] text-lg leading-7 mb-8 max-w-[90%] text-center mx-auto border-0 box-border">
-          Explore the creative solutions and innovative projects I've been
-          working on
-        </p>
-      </div>
-      <ClientOnly>
-        <swiper-container ref="containerRef"
-         >
-          <swiper-slide class="swiper-slide mb-16" v-for="(slide, idx) in personalProjects" :key="idx">
+
+    <!-- Swiper container -->
+    <ClientOnly>
+      <div class="px-2 md:px-0">
+        <swiper-container ref="containerRef" class="mb-8 md:mb-16">
+          <swiper-slide class="swiper-slide" v-for="(slide, idx) in personalProjects" :key="idx">
             <ProjectCard :project="slide" />
           </swiper-slide>
         </swiper-container>
-        <div class="flex justify-between">
-          <UButton label="Prev" color="sky" variant="solid" @click="swiper.prev()" />
-          <UButton label="Next" color="sky" variant="solid" @click="swiper.next()" />
-        </div>
-      </ClientOnly>
-      <div class="text-center mt-12 border-0 box-border">
-        <nuxt-link to="/projects"
-          class="items-center border-2 border-sky-700 rounded-full text-sky-700 inline-flex font-medium gap-2 justify-center py-3 px-8 transition-all duration-300 ease-in-out no-underline box-border">
-          View All Projects
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-            class="transition-transform duration-150 ease-in-out w-5 h-5 ml-1 block align-middle border-0 box-border">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"
-              class="border-0 box-border"></path>
-          </svg>
-        </nuxt-link>
       </div>
+      
+      <div class="flex justify-center gap-4 md:justify-between">
+        <UButton 
+          label="Prev" 
+          color="sky" 
+          variant="solid" 
+          @click="swiper.prev()" 
+          class="px-4 py-2 text-sm md:text-base"
+        />
+        <UButton 
+          label="Next" 
+          color="sky" 
+          variant="solid" 
+          @click="swiper.next()" 
+          class="px-4 py-2 text-sm md:text-base"
+        />
+      </div>
+    </ClientOnly>
+
+    <!-- View all button -->
+    <div class="text-center mt-8 md:mt-12">
+      <nuxt-link to="/projects"
+        class="inline-flex items-center border-2 border-sky-700 rounded-full text-sky-700 font-medium gap-2 justify-center py-2 md:py-3 px-6 md:px-8 transition-all text-sm md:text-base">
+        View All Projects
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" class="w-4 h-4 md:w-5 md:h-5 ml-1">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </nuxt-link>
     </div>
-  </section>
+  </div>
+</section>
 </template>
 
 <script setup lang="ts">

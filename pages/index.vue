@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-grow border-0 box-border mt-4">
+  <main class="flex-grow border-0 box-border mt-8">
     <UserCard />
     <FeaturedProjects />
     <Skills />

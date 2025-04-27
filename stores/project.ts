@@ -126,6 +126,60 @@ export const useProjectStore = defineStore('project', {
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
           ],
         },
+        {
+          id: 3,
+          label: "ReadyKit: Admin & User Dashboard Templates (with functionality)",
+          slug: "readykit-admin-dashboard",
+          projectOverview: "ReadtKit – A smart solution for building applications with ready UI and good laravel application structure. It contains many ready components which are required for most of the applications. It includes user role management, email, notifications and other CRUD functionality. If you are planning to develop your next project and want to save thousands of hours, then this is the right choice for you.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
+          status: "completed",
+          thumbnail: "https://market-resized.envatousercontent.com/codecanyon.net/files/515022215/Inline%20Preview%20image%20-%20Readykit%203.1.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=6e4de912f6f1fd76803a58778c3956ea2dfe4fdb853df8b6406a09f999087299",
+          link: "https://readykit.gainhq.com/",
+
+          featured: true,
+          keyFeatures: [
+            {
+              label: "Integrated Services",
+              description: "Supports major payment gateways (PayPal, Razorpay, Stripe), cloud storage via AWS S3, Google Maps integration, and Twilio SMS services."
+            },
+            {
+              label: "User Experience & UI",
+              description: "Includes dark/light mode, RTL support, dynamic filters, reusable Vue components, and various UI elements like progress bars, datatables, calendar, kanban, and report views."
+            },
+            {
+              label: "Social & Communication Features",
+              description: "Built-in user chat, social network-style feeds and profile pages, notifications, and customizable email templates for seamless communication."
+            },
+            {
+              label: "Data Handling & Display",
+              description: "Advanced datatables with CRUD functionality, export options, list and card views, plus automated form validation for smooth data operations."
+            },
+            {
+              label: "User & Access Management",
+              description: "Robust authentication system, user role management, user profiles, and mandatory application settings interface with proper UI handling."
+            },
+            {
+              label: "System Essentials",
+              description: "Prebuilt dashboards, invoice and error pages, support for multiple layouts, and many more practical tools to speed up development."
+            }
+          ],
+          role: "Frontend Developer",
+          teamSize: 5,
+          problemSolved: [
+            "Dynamic favicon and notifications.",
+            "AI chatbot for user assistance.",
+          ],
+          technologies: [
+            { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Nuxt.js", expertise: "intermediate", icon: ""}
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
+          ],
+        },
       ],
       cetegorizedSkills: [
         {

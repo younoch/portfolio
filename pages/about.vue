@@ -11,7 +11,7 @@
         <div class="mb-12 text-center">
           <img
             src="/images/image-profile.jpg"
-            alt="Digin Dominic"
+            alt="Mohammad Younoch"
             class="rounded-lg shadow-lg w-full max-w-md mx-auto h-[450px] object-cover border border-gray-200"
           />
         </div>
@@ -27,18 +27,24 @@
               </p>
               <h2>Professional Background</h2>
               <p>
-                With over <span class=" font-medium">4 years of experience</span> in the tech industry, I've had
-                the opportunity to work across different domains:
+                With over
+                <span class="font-medium">4 years of experience</span> in the
+                tech industry, I've had the opportunity to work across different
+                domains:
               </p>
               <ul>
                 <li>
-                  Currently working as a
-                  <strong>System Engineer &amp; Web Developer</strong> at the
-                  University of Edinburgh (2022-Present)
+                  <strong>Full Stack Web Developer</strong> at AI Dock Builder
+                  (Canadian Farm)
+                  <span class="text-muted">• Remote • 2022–Present</span>
                 </li>
+
                 <li>
-                  Previously worked as a <strong>Junior C# Developer</strong> at
-                  U2A Solutions Ltd in the UK (06/2022-08/2022)
+                  <strong>Frontend Developer (Vue.js)</strong> at Gain Solutions
+                  Ltd
+                  <span class="text-muted"
+                    >• Dhaka, Bangladesh • Jun 2022–Aug 2022</span
+                  >
                 </li>
                 <li>
                   Served as a <strong>PHP Developer</strong> at Veeble Softtech
@@ -53,12 +59,8 @@
               <h2>Education</h2>
               <ul>
                 <li>
-                  <strong>Masters Degree in IT Security</strong> from Nottingham
-                  Trent University, United Kingdom (2021-2022)
-                </li>
-                <li>
-                  <strong>Bachelors Degree in Information Technology</strong>
-                  from Mahatma Gandhi University, India (2012-2016)
+                  <strong>Bachelors Degree in Computer Science and Technology</strong>
+                  from Cox's Bazar International University, Cox's Bazar (2021)
                 </li>
               </ul>
               <h2>Technical Skills</h2>
@@ -79,11 +81,12 @@
               </p>
               <h2>Graduation</h2>
               <p>
-                I completed my Graduation in Computer Science and Engineering at Cox's Bazar International
-                University in 2021. The video below shows a special moment from
-                my graduation ceremony. This achievement represents a
-                significant milestone in my academic journey and has been
-                instrumental in shaping my professional career in the Dhaka, Bangladesh.
+                I completed my Graduation in Computer Science and Engineering at
+                Cox's Bazar International University in 2021. The video below
+                shows a special moment from my graduation ceremony. This
+                achievement represents a significant milestone in my academic
+                journey and has been instrumental in shaping my professional
+                career in the Dhaka, Bangladesh.
               </p>
             </div>
           </div>
@@ -110,8 +113,8 @@
                   <div class="relative w-full pb-[56.25%]">
                     <iframe
                       class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-                      src="https://www.youtube.com/embed/LurUb1p8Cns"
-                      title="My Masters Graduation at Cox's Bazar International University"
+                      src="https://www.youtube.com/watch?v=pprxf-jNwQM"
+                      title="Full Stack Developer | Mohammad Younoch"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen=""
@@ -137,7 +140,8 @@
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    ></path></svg><a
+                    ></path></svg
+                  ><a
                     href="mailto:younoch295@gmail.com"
                     class="hover:text-blue-600 transition-colors"
                     >younoch295@gmail.com</a
@@ -155,7 +159,8 @@
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    ></path></svg><a
+                    ></path></svg
+                  ><a
                     href="tel:+88 01837377218"
                     class="hover:text-blue-600 transition-colors"
                     >+88 01837377218</a
@@ -179,7 +184,8 @@
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    ></path></svg><span>Cox's Bazar, Bangladesh</span>
+                    ></path></svg
+                  ><span>Cox's Bazar, Bangladesh</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -193,7 +199,8 @@
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
-                    ></path></svg><span>English, Bangla</span>
+                    ></path></svg
+                  ><span>English, Bangla</span>
                 </li>
               </ul>
             </div>
