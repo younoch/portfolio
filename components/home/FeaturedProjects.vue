@@ -9,7 +9,7 @@
           Work</span>
         <h2 class="text-[#1a1e2e] text-4xl font-bold tracking-[-0.9px] leading-[45px] mb-4 border-0 box-border">
           Featured
-          <span class="text-[#2a3b90] relative z-10 border-0 box-border">Projects</span>
+          <span class="text-sky-700 relative z-10 border-0 box-border">Projects</span>
         </h2>
         <p class="text-[#767b84] text-lg leading-7 mb-8 max-w-[90%] text-center mx-auto border-0 box-border">
           Explore the creative solutions and innovative projects I've been
@@ -30,7 +30,7 @@
       </ClientOnly>
       <div class="text-center mt-12 border-0 box-border">
         <nuxt-link to="/projects"
-          class="items-center border-2 border-[#2a3b90] rounded-full text-[#2a3b90] inline-flex font-medium gap-2 justify-center py-3 px-8 transition-all duration-300 ease-in-out no-underline box-border">
+          class="items-center border-2 border-sky-700 rounded-full text-sky-700 inline-flex font-medium gap-2 justify-center py-3 px-8 transition-all duration-300 ease-in-out no-underline box-border">
           View All Projects
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
             class="transition-transform duration-150 ease-in-out w-5 h-5 ml-1 block align-middle border-0 box-border">

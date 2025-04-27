@@ -5,47 +5,51 @@ export const useProjectStore = defineStore('project', {
       personalProjects: [
         {
           id: 1,
-          label: "Automating Secure Infrastructure with Ansible",
-          slug: "automating-secure-infrastructure-with-ansible",
-          projectOverview: "Automating Secure Infrastructure with Ansible streamlines SSH key management, user provisioning, and sudoers configuration to enhance security and efficiency. This project ensures password-less authentication, centralized sudo monitoring, and safe system administration through Infrastructure as Code (IaC).",
-          startDate: "2021-12-12",
-          endDate: "2022-03-15",
+          label: "KireiBD: A Marketplace for Beauty Products",
+          slug: "kireibd-marketplace",
+          projectOverview: "KireiBD is a comprehensive marketplace for beauty products, offering a user-friendly interface for both buyers and sellers. The platform includes features like product listings, reviews, and secure payment processing, ensuring a seamless shopping experience.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
           status: "completed",
-          thumbnail: "https://raw.githubusercontent.com/digin1/web-images/main/ansible.png",
-          link: "https://example.com/ansible-automation",
+          thumbnail: "https://kireibd.com/_nuxt/img/logo.e826c8b.png",
+          link: "https://kireibd.com",
+
           featured: true,
           keyFeatures: [
             {
-              label: "SSH Key Management",
-              description: "Automated SSH key generation and distribution for secure access.",
+              label: "User-Friendly Interface",
+              description: "Designed for easy navigation and product discovery."
             },
             {
-              label: "User Provisioning",
-              description: "Streamlined user account creation and management.",
+              label: "Secure Payment Processing",
+              description: "Integrated payment gateways for safe transactions."
             },
             {
-              label: "Sudoers Configuration",
-              description: "Centralized sudoers file management for enhanced security.",
+              label: "Product Reviews",
+              description: "Allows users to leave feedback and ratings."
             },
             {
-              label: "Infrastructure as Code (IaC)",
-              description: "Implemented IaC principles for consistent and repeatable deployments.",
+              label: "Admin Dashboard",
+              description: "Comprehensive admin panel for managing products and users."
+            },
+            {
+              label: "Product Listings",
+              description: "Sellers can easily list their products with detailed descriptions."
             }
           ],
-          role: "Lead Infrastructure Engineer",
-          teamSize: 3,
+          role: "Sr. Frontend Developer",
+          teamSize: 5,
           problemSolved: [
-            "Automated SSH key management to eliminate manual errors.",
-            "Streamlined user provisioning process for faster onboarding.",
-            "Centralized sudoers configuration for better security and auditing.",
-            "Implemented Infrastructure as Code (IaC) for consistent deployments."
+            "Data management and storage for beauty products.",
+            "Payment processing and security.",
+            "Social media integration for product sharing.",
           ],
-          tech: [
-            { label: "ansible", expertise: "expert", icon: "simple-icons:ansible" },
-            { label: "ubuntu", expertise: "advanced", icon: "simple-icons:ubuntu" },
-            { label: "ssh", expertise: "expert", icon: "mdi:ssh" },
-            { label: "yaml", expertise: "advanced", icon: "vscode-icons:file-type-yaml" },
-            { label: "linux", expertise: "expert", icon: "mdi:linux" }
+          technologies: [
+            { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:nuxtjs" },
+            { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Node.js", expertise: "intermediate", icon: "i-uil:nodejs" },
+            { label: "PostgreSQL", expertise: "intermediate", icon: "i-uil:postgresql" },
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
@@ -108,7 +112,7 @@ export const useProjectStore = defineStore('project', {
       getTechList: (state) => {
         return [...new Set(
           state.personalProjects.flatMap(project => 
-            project.tech.map(tech => tech.label)
+            project.technologies.map(tech => tech.label)
           )
         )];
       }

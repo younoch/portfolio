@@ -21,7 +21,7 @@
           </li>
         </ul>
         <nuxt-link to="/about"
-          class="block bg-[rgb(42,59,144)] rounded-full text-white font-medium px-6 py-2 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] no-underline border-0 border-solid border-[rgb(229,231,235)] box-border">Contact
+          class="block bg-sky-700 rounded-full text-white font-medium px-6 py-2 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] no-underline border-0 border-solid border-[rgb(229,231,235)] box-border">Contact
           Me</nuxt-link>
         <button aria-label="Toggle menu"
           class="hidden text-[rgb(51,57,68)] cursor-pointer appearance-none bg-transparent font-sans text-base font-normal leading-[26px] m-0 p-0 border-0 border-solid border-[rgb(229,231,235)] box-border">

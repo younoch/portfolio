@@ -28,7 +28,7 @@ export interface PersonalProject {
   role: string;
   teamSize: number;
   problemSolved: string[];
-  tech: techItem[];
+  technologies: techItem[];
   screenshots?: string[];
 }
 export interface CategorizedSkill {

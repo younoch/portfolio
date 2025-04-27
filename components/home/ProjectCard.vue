@@ -19,9 +19,9 @@
         class="gap-2 flex-wrap max-w-[90%] flex left-4 bottom-4 absolute border-0 box-border"
       >
         <span
-          v-for="tech in project.tech"
+          v-for="tech in project.technologies"
           :key="tech.label"
-          class="shadow-sm text-[#2a3b90] font-medium text-xs leading-4 py-1 px-3 bg-[rgba(255,255,255,0.9)] border border-[rgba(42,59,144,0.2)] rounded-full"
+          class="shadow-sm text-sky-700 font-medium text-xs leading-4 py-1 px-3 bg-[rgba(255,255,255,0.9)] border border-[rgba(42,59,144,0.2)] rounded-full"
         >
           {{ tech.label }}
         </span>
@@ -31,7 +31,7 @@
     <!-- Content Section -->
     <div class="p-8 w-3/5 flex flex-col border-0 box-border">
       <div class="mb-2 border-0 box-border">
-        <p class="text-[#2a3b90] font-medium text-sm leading-5 mb-1">
+        <p class="text-sky-700 font-medium text-sm leading-5 mb-1">
           {{ formatDate(project.startDate) }} - {{ formatDate(project.endDate) }}
         </p>
         <h3 class="text-3xl leading-9 text-[#1a1e2e] font-bold mb-4">
@@ -50,7 +50,7 @@
       <div class="mt-auto">
         <nuxt-link
           :to="`/projects/${project.slug}`"
-          class="shadow-md items-center bg-[#2a3b90] rounded-full text-white inline-flex font-medium gap-2 justify-center py-3 px-8 transition-all duration-300 ease-in-out no-underline hover:bg-[#1e2a78]"
+          class="shadow-md items-center bg-sky-700 rounded-full text-white inline-flex font-medium gap-2 justify-center py-3 px-8 transition-all duration-300 ease-in-out no-underline hover:bg-[#1e2a78]"
         >
           View Project Details
           <svg

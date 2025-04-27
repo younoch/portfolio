@@ -6,12 +6,12 @@
       </div>
       <div class="mb-8 text-center z-10 relative border-0 border-gray-200 box-border">
         <span
-          class="text-[rgb(80,104,226)] inline-block text-lg font-semibold leading-7 relative mb-3 border-0 border-gray-200 box-border">My
+          class="text-sky-700 inline-block text-lg font-semibold leading-7 relative mb-3 border-0 border-gray-200 box-border">My
           Expertise</span>
         <h2
           class="text-[rgb(26,30,46)] text-4xl font-bold tracking-[-0.9px] leading-[45px] mb-4 mx-0 border-0 border-gray-200 box-border">
           Tech
-          <span class="text-[rgb(42,59,144)] relative z-10 border-0 border-gray-200 box-border">Toolkit</span>
+          <span class="text-sky-800 relative z-10 border-0 border-gray-200 box-border">Toolkit</span>
         </h2>
         <p
           class="text-[rgb(118,123,132)] text-lg leading-7 mb-8 max-w-[90%] mx-auto border-0 border-gray-200 box-border">

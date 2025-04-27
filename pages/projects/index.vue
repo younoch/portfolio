@@ -1,5 +1,16 @@
 <script setup lang="ts">
 const { personalProjects, getTechList } = useProjectStore();
+
+const selectedTech = ref<string>('');
+
+const filterProjectsByTech = computed(() => {
+  if (selectedTech.value) {
+    return personalProjects.filter((project) =>
+      project.technologies.some((tech) => tech.label === selectedTech.value)
+    );
+  }
+  return personalProjects;
+});
 </script>
 
 <template>
@@ -11,11 +22,20 @@ const { personalProjects, getTechList } = useProjectStore();
         </h1>
       </header>
       <div class="flex justify-center items-center flex-wrap mb-4">
-        <UButton class="mx-1" v-for="(item, idx) in getTechList" :label="item" variant="outline" color="sky" :key="idx"/>
+        <UButton 
+          class="mx-1 transition-colors duration-300" 
+          v-for="(item, idx) in getTechList" 
+          :label="item" 
+          :variant="selectedTech === item ? 'solid' : 'soft'" 
+          color="sky" 
+          :ui="{ rounded: 'rounded-full' }"
+          :key="idx" 
+          @click="selectedTech = item"
+      />
       </div>
       <main class="flex-grow border-0 box-border mt-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div v-for="(project, index) in personalProjects" :key="index"
+          <div v-for="(project, index) in filterProjectsByTech" :key="index"
             class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
           >
             <NuxtImg

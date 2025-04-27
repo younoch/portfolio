@@ -35,7 +35,7 @@ if (!project.value) {
           <div class="flex flex-wrap gap-x-2">
             <h5 class="text-lg font-medium">Technology Used:</h5>
             <UTooltip
-              v-for="(item, index) in project?.tech"
+              v-for="(item, index) in project?.technologies"
               arrow
               :text="item.expertise"
               :popper="{
