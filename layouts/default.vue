@@ -7,7 +7,7 @@
     >
     <div class="border-0 border-solid border-[rgb(229,231,235)] box-border">
       <div
-        class="text-[rgb(17,24,39)] bg-white flex flex-col min-h-[559px] border-0 border-solid border-[rgb(229,231,235)] box-border"
+        class="px-2 text-[rgb(17,24,39)] bg-white flex flex-col min-h-[559px] border-0 border-solid border-[rgb(229,231,235)] box-border"
       >
         <Header />
         <slot />

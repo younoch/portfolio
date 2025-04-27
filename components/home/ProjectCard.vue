@@ -2,7 +2,7 @@
   <div class="flex flex-col sm:flex-row shadow-md bg-white border border-gray-100 rounded-xl overflow-hidden h-auto sm:h-[400px]">
   <!-- Image Section -->
   <div class="w-full sm:w-2/5 relative bg-gray-50 min-h-[200px] sm:min-h-0">
-    <div class="h-full flex justify-center items-center p-4">
+    <div class="h-full flex justify-center items-center md:p-4">
       <img
         :src="project.thumbnail || project.preview"
         :alt="project.name"
@@ -11,11 +11,11 @@
     </div>
     
     <!-- Tech Stack Tags -->
-    <div class="gap-2 flex-wrap flex left-2 right-2 bottom-2 sm:left-4 sm:bottom-4 absolute justify-center sm:justify-start">
+    <div class="gap-x-0.5 gap-y-1 md:gap-2 flex-wrap flex left-2 right-2 bottom-2 sm:left-4 sm:bottom-4 absolute justify-center sm:justify-start">
       <span
         v-for="tech in project.technologies"
         :key="tech.label"
-        class="shadow-sm text-sky-700 font-medium text-xs leading-4 py-1 px-3 bg-white/90 border border-sky-200 rounded-full whitespace-nowrap"
+        class="shadow-sm text-sky-700 font-medium text-xs leading-4 px-1.5 py-0.5 md:py-1 md:px-3 bg-white/90 border border-sky-200 rounded-full whitespace-nowrap"
       >
         {{ tech.label }}
       </span>
@@ -23,7 +23,7 @@
   </div>
 
   <!-- Content Section -->
-  <div class="p-6 sm:p-12 w-full sm:w-3/5 flex flex-col">
+  <div class="p-2 sm:p-8 w-full sm:w-3/5 flex flex-col">
     <div class="mb-2">
       <p class="text-sky-700 font-medium text-sm leading-5 mb-1">
         {{ formatDate(project.startDate) }} - {{ formatDate(project.endDate) }}
@@ -42,7 +42,7 @@
     <div class="mt-4 sm:mt-auto">
       <nuxt-link
         :to="`/projects/${project.slug}`"
-        class="shadow-md items-center bg-sky-700 rounded-full text-white inline-flex font-medium gap-2 justify-center py-2 px-6 sm:py-3 sm:px-8 transition-all duration-300 ease-in-out no-underline hover:bg-sky-800 w-full sm:w-auto text-center"
+        class="text-sm md:text-base shadow-md items-center bg-sky-700 rounded-full text-white inline-flex font-medium gap-2 justify-center py-2 px-2 sm:py-3 sm:px-4 transition-all duration-300 ease-in-out no-underline hover:bg-sky-800 w-full sm:w-auto text-center"
       >
         View Project Details
         <svg

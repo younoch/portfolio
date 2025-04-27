@@ -1,6 +1,6 @@
 <template>
 <section class="py-2 md:py-4 flex items-center bg-[#f8f9fc] min-h-[auto] md:min-h-[559px] overflow-hidden relative">
-  <div class=" max-w-5xl px-2 mx-auto w-full">
+  <div class=" max-w-5xl mx-auto w-full">
     <div class="flex flex-col md:flex-row items-center justify-between relative z-10 gap-8 md:gap-0">
       <!-- Text Content (order changes on mobile) -->
       <div class="w-full md:w-[58%] order-2 md:order-1 flex-1 max-w-full md:max-w-[576px]">
@@ -8,7 +8,7 @@
           Full-Stack Developer | AI Solutions Architect | Performance Optimization Specialist
         </p>
         
-        <h1 class="text-3xl md:text-[48px] leading-[36px] md:leading-[48px] text-[#1a1e2e] font-bold tracking-tight md:tracking-[-1.2px] my-2 md:my-3">
+        <h1 class="text-2xl md:text-4xl text-[#1a1e2e] font-bold tracking-tight my-1 md:my-3">
           Building <span class="text-sky-700">impactful</span> digital solutions
         </h1>
 
