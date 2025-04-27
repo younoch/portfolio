@@ -49,6 +49,7 @@ export const useProjectStore = defineStore('project', {
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:nuxtjs" },
             { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
             { label: "Node.js", expertise: "intermediate", icon: "i-uil:nodejs" },
+            { label: "Axios", expertise: "intermediate", icon: "i-uil:axios" },
             { label: "PostgreSQL", expertise: "intermediate", icon: "i-uil:postgresql" },
           ],
           screenshots: [

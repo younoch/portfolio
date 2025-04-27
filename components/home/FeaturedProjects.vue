@@ -1,8 +1,8 @@
 <template>
-  <section class="py-4 md:py-12 bg-[#f8f9fc] relative">
+  <section class="py-2 md:py-4 bg-[#f8f9fc] relative">
   <div class="bg-[rgba(80,226,208,0.05)] rounded-full w-64 h-64 md:w-96 md:h-96 -ml-32 md:-ml-48 -mb-32 md:-mb-48 left-0 bottom-0 absolute"></div>
   
-  <div class="container px-4 mx-auto relative z-10">
+  <div class=" w-full max-w-5xl px-2 mx-auto relative z-10">
     <!-- Header section -->
     <div class="text-center mb-6 md:mb-10">
       <span class="text-sky-700 text-base md:text-lg font-semibold mb-2 md:mb-4 block">My Work</span>
@@ -17,7 +17,7 @@
     <!-- Swiper container -->
     <ClientOnly>
       <div class="px-2 md:px-0">
-        <swiper-container ref="containerRef" class="mb-8 md:mb-16">
+        <swiper-container ref="containerRef" class="">
           <swiper-slide class="swiper-slide" v-for="(slide, idx) in personalProjects" :key="idx">
             <ProjectCard :project="slide" />
           </swiper-slide>

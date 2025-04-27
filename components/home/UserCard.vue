@@ -1,6 +1,6 @@
 <template>
-<section class="py-4 md:py-12 flex items-center bg-[#f8f9fc] min-h-[auto] md:min-h-[559px] overflow-hidden relative">
-  <div class="container px-4 mx-auto w-full">
+<section class="py-2 md:py-4 flex items-center bg-[#f8f9fc] min-h-[auto] md:min-h-[559px] overflow-hidden relative">
+  <div class=" max-w-5xl px-2 mx-auto w-full">
     <div class="flex flex-col md:flex-row items-center justify-between relative z-10 gap-8 md:gap-0">
       <!-- Text Content (order changes on mobile) -->
       <div class="w-full md:w-[58%] order-2 md:order-1 flex-1 max-w-full md:max-w-[576px]">

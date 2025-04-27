@@ -6,7 +6,7 @@
         Get to know more about my background and experience
       </p>
     </header>
-    <section class="py-8" id="about">
+    <section class="py-2 md:py-4" id="about">
       <div class="max-w-5xl mx-auto">
         <div class="mb-12 text-center">
           <img

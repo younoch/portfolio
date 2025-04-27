@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white border-t border-gray-200 mt-auto">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 w-full">
+  <div class="max-w-5xl mx-auto py-2 sm:py-4 w-full">
     <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
       <div class="text-center sm:text-left">
         <nuxt-link to="/" class="text-gray-900 font-bold text-xl sm:text-2xl leading-8 no-underline">Portfolio</nuxt-link>
