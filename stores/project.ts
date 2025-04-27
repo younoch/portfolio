@@ -11,7 +11,7 @@ export const useProjectStore = defineStore('project', {
           startDate: "2022-01-01",
           endDate: "2022-06-01",
           status: "completed",
-          thumbnail: "https://kireibd.com/_nuxt/img/logo.e826c8b.png",
+          thumbnail: "https://app.kireibd.com/assets/img/social-share.png",
           link: "https://kireibd.com",
 
           featured: true,
@@ -56,6 +56,76 @@ export const useProjectStore = defineStore('project', {
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
           ],
         },
+        {
+          id: 2,
+          label: "Bytelancers: a chainise freelancing platform connecting businesses with remote professionals",
+          slug: "bytelancers-freelancing-platform",
+          projectOverview: "Bytelancers is a freelancing platform that connects businesses with remote professionals across various fields. It offers a streamlined process for posting jobs, hiring freelancers, and managing projects, ensuring a smooth experience for both parties.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
+          status: "completed",
+          thumbnail: "/images/Bytelancer-ss-1.png",
+          link: "https://bytelancers.com",
+
+          featured: true,
+          keyFeatures: [
+            {
+              label: "Freelancer Marketplace",
+              description: "Connects businesses with vetted freelancers and agencies across tech, design, marketing, and more."
+            },
+            {
+              label: "Project Posting & Hiring",
+              description: "Clients can post jobs, review proposals, and hire the best freelancers for their projects."
+            },
+            {
+              label: "Secure Payments & Escrow System",
+              description: "Payment protection ensures freelancers are paid upon project completion, with multiple payment options."
+            },
+            {
+              label: "Skill-Based Categories",
+              description: "Organizes freelancers by expertise (e.g., Web Dev, UI/UX, Content Writing, AI/Blockchain)."
+            },
+            {
+              label: "Ratings & Reviews",
+              description: "Client feedback and performance metrics help users choose reliable freelancers."
+            },
+            {
+              label: "Collaboration Tools",
+              description: "Built-in messaging, file-sharing, and project management integrations for seamless workflows."
+            },
+            {
+              label: "Flexible Hiring Models",
+              description: "Supports hourly, fixed-price, or retainer-based contracts for short-term or long-term work."
+            },
+            {
+              label: "Freelancer Verification",
+              description: "Identity checks, skill assessments, and portfolio reviews to ensure quality talent."
+            },
+            {
+              label: "Global Talent Pool",
+              description: "Access to freelancers worldwide, offering cost-effective and multilingual solutions."
+            },
+            {
+              label: "Membership/Subscription Plans",
+              description: "Optional premium tiers for freelancers (lower fees) and clients (exclusive hiring perks)."
+            }
+        ],
+          role: "Frontend Developer",
+          teamSize: 5,
+          problemSolved: [
+            "Dynamic favicon and notifications.",
+            "AI chatbot for user assistance.",
+          ],
+          technologies: [
+            { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Websocket", expertise: "intermediate", icon: ""}
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
+          ],
+        },
       ],
       cetegorizedSkills: [
         {
@@ -68,6 +138,7 @@ export const useProjectStore = defineStore('project', {
             { label: 'Nuxt', icon: 'i-uil:nuxtjs'},
             { label: 'Tailwind CSS', icon: 'i-uil:tailwindcss' },
             { label: 'Bootstrap', icon: 'i-uil:bootstrap' },
+            { label: 'websocket', icon: 'i-uil:websocket' },
           ],
         },
         {
@@ -79,7 +150,6 @@ export const useProjectStore = defineStore('project', {
             { label: 'REST APIs', icon: 'i-uil:restapi' },
             { label: 'PostgreSQL', icon: 'i-uil:postgresql' },
             { label: 'Redis', icon: 'i-uil:redis' },
-            { label: 'MySQL', icon: 'i-uil:mysql' },
             { label: 'SQLite', icon: 'i-uil:sqlite' },
           ],
         },

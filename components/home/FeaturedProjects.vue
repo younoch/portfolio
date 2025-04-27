@@ -5,7 +5,7 @@
     </div>
     <div class="max-w-5xl mx-auto z-10 relative w-full border-0 box-border">
       <div class="text-center mb-10 border-0 box-border">
-        <span class="text-[#5068e2] inline-block text-lg font-semibold leading-7 relative mb-4 border-0 box-border">My
+        <span class="text-sky-700 inline-block text-lg font-semibold leading-7 relative mb-4 border-0 box-border">My
           Work</span>
         <h2 class="text-[#1a1e2e] text-4xl font-bold tracking-[-0.9px] leading-[45px] mb-4 border-0 box-border">
           Featured

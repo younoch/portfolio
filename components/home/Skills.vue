@@ -47,7 +47,7 @@
         </template>
 
       </UTabs>
-      <div class="max-w-none mt-16 mx-auto text-base leading-7 text-gray-700 border-0 box-border">
+      <!-- <div class="max-w-none mt-16 mx-auto text-base leading-7 text-gray-700 border-0 box-border">
         <div class="my-0 border-0 box-border">
           <h1 class="text-gray-900 text-4xl font-extrabold leading-10 mb-8 mt-0 m-0 border-0 box-border">
             Technical Skills
@@ -94,7 +94,7 @@
             environments that enhance productivity.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

@@ -50,7 +50,7 @@ const filterProjectsByTech = computed(() => {
               <div
                 class="flex items-center justify-between text-sm text-gray-500 mb-2"
               >
-                <span>{{ project.endDate }}</span><span>php</span>
+                <span>{{ project.endDate }}</span>
               </div>
               <h3 class="text-lg font-semibold text-gray-900 mb-2">
                 {{ project.name }}

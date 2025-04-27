@@ -30,9 +30,9 @@
                 class="border-0 box-border"></path>
             </svg>
           </nuxt-link>
-          <nuxt-link to="https://x.com/digin1" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+          <nuxt-link to="https://stackoverflow.com/users/14935206/younoch" target="_blank" rel="noopener noreferrer" aria-label="Stackoverflow"
             class="transition-all duration-150 ease-in-out text-gray-500 p-2 rounded-full ml-6 mr-0 no-underline border-0 box-border">
-            <span class="sr-only">Twitter</span>
+            <span class="sr-only">Stackoverflow</span>
             <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
               class="w-6 h-6 block align-middle border-0 box-border">
               <path
@@ -64,7 +64,7 @@
           <h3 class="text-gray-900 font-semibold mb-4 m-0 text-base border-0 box-border">
             Technologies
           </h3>
-          <ul class="list-none m-0 p-0 border-0 box-border">
+          <!-- <ul class="list-none m-0 p-0 border-0 box-border">
             <li class="border-0 box-border">
               <span class="text-gray-500 border-0 box-border">React</span>
             </li>
@@ -77,17 +77,17 @@
             <li class="my-2 border-0 box-border">
               <span class="text-gray-500 border-0 box-border">GitHub API</span>
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-span-2 border-0 box-border">
           <h3 class="text-gray-900 font-semibold mb-4 m-0 text-base border-0 box-border">
             About This Site
           </h3>
-          <p class="text-gray-500 m-0 border-0 box-border">
+          <!-- <p class="text-gray-500 m-0 border-0 box-border">
             This portfolio website is built with React and uses GitHub
             Issues as a CMS. Content is dynamically fetched from GitHub
             repository issues with specific labels.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>

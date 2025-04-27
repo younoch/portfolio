@@ -86,7 +86,7 @@
           class="w-full md:w-[40%] mt-0 order-2 md:order-2 flex-1 flex items-center justify-center border-0 box-border">
           <div
             class="mr-0 ml-auto rounded-lg transition-all duration-300 ease-in-out shadow-xl h-[360px] overflow-hidden relative w-full max-w-[320px] border-0 box-border">
-            <img src="/image-profile.jpg" alt="Mohammad Younoch"
+            <img src="/images/image-profile.jpg" alt="Mohammad Younoch"
               class="h-[360px] object-cover w-full shadow-md rounded-lg max-w-full block align-middle border-0 box-border" />
           </div>
         </div>
