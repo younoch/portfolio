@@ -15,7 +15,7 @@
       <span
         v-for="tech in project.technologies"
         :key="tech.label"
-        class="shadow-sm text-sky-700 font-medium text-xs leading-4 px-1.5 py-0.5 md:py-1 md:px-3 bg-white/90 border border-sky-200 rounded-full whitespace-nowrap"
+        class="shadow-sm text-sky-400 font-medium text-xs leading-4 px-1.5 py-0.5 md:py-1 md:px-3 bg-white/90 border border-sky-200 rounded-full whitespace-nowrap"
       >
         {{ tech.label }}
       </span>

@@ -12,11 +12,11 @@
           Building <span class="text-sky-700">impactful</span> digital solutions
         </h1>
 
-        <div class="text-sm md:text-base leading-5 md:leading-6 text-[#767b84] mb-6">
+        <div class="text-sm md:text-base leading-5 md:leading-6 text-[#767b84] mb-2 md:mb-4">
           <p class="text-base md:text-lg text-gray-700 mb-3 md:mb-4 leading-relaxed">
             <span class="font-semibold text-gray-900">Full-Stack Developer</span> specializing in
-            <span class="bg-sky-50 text-sky-700 font-medium px-1">AI-powered applications</span>
-            and <span class="bg-purple-50 text-blue-700 font-medium px-1">high-performance web systems</span>.
+            <span class="bg-sky-50 text-sky-700 font-medium">AI-powered applications</span>
+            and <span class="bg-purple-50 text-sky-700 font-medium">high-performance web systems.</span>
             I transform complex requirements into scalable solutions with:
           </p>
 
@@ -48,28 +48,28 @@
         </div>
 
         <!-- Buttons -->
-        <div class="flex flex-col sm:flex-row gap-3 md:gap-4 mt-4 md:mt-6 mb-6 md:mb-8">
+        <div class="flex flex-col sm:flex-row gap-3 md:gap-4 mt-4 md:mt-6 mb-1 md:mb-8">
           <nuxt-link to="/projects"
-            class="shadow-md hover:shadow-lg bg-sky-700 rounded-full text-white font-medium flex items-center justify-center gap-2 transition-all py-2 md:py-3 px-6 md:px-8 text-sm md:text-base">
+            class="shadow-md hover:shadow-lg bg-sky-700 rounded-full text-white font-medium flex items-center justify-center gap-2 transition-all py-1 md:py-3 px-6 md:px-8 text-sm md:text-base">
             <UIcon name="i-uil:eye" class="text-lg" />
             View My Work
           </nuxt-link>
           <nuxt-link to="/about"
-            class="border-2 border-sky-700 rounded-full text-sky-700 font-medium flex items-center justify-center gap-2 transition-all py-2 md:py-3 px-6 md:px-8 text-sm md:text-base">
+            class="border-2 border-sky-700 rounded-full text-sky-700 font-medium flex items-center justify-center gap-2 transition-all py-1 md:py-3 px-6 md:px-8 text-sm md:text-base">
             <UIcon name="i-mingcute:send-plane-fill" class="text-lg" />
             Contact Me
           </nuxt-link>
         </div>
 
         <!-- Social Icons -->
-        <div class="flex gap-3 md:gap-4 mt-6 md:mt-8">
+        <div class="hidden md:flex gap-3 md:gap-4 mt-3 md:mt-5">
           <nuxt-link to="https://github.com/younoch"
-            class="shadow-sm bg-white rounded-full text-[#333944] flex h-8 w-8 md:h-9 md:w-9 items-center justify-center p-2">
-            <UIcon name="i-mdi:github" class="text-xl md:text-2xl" />
+            class="shadow-sm bg-white rounded-full text-[#333944] flex items-center justify-center">
+            <UIcon name="i-mdi:github" class="text-2xl md:text-3xl" />
           </nuxt-link>
           <nuxt-link to="https://www.linkedin.com/in/younoch/"
-            class="shadow-sm bg-white rounded-full text-[#333944] flex h-8 w-8 md:h-9 md:w-9 items-center justify-center p-2">
-            <UIcon name="i-mdi:linkedin" class="text-xl md:text-2xl" />
+            class="shadow-sm bg-white rounded-full text-[#333944] flex items-center justify-center">
+            <UIcon name="i-mdi:linkedin" class="text-2xl md:text-3xl" />
           </nuxt-link>
         </div>
       </div>

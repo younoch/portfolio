@@ -7,7 +7,12 @@ export default defineNuxtConfig({
   ui: {},
   app: {
     baseURL: '/portfolio/', // Replace 'portfolio' with your repo name
-    buildAssetsDir: 'assets'
+    buildAssetsDir: 'assets',
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
   },
   postcss: {
     plugins: {

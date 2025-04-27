@@ -193,7 +193,8 @@ export const useProjectStore = defineStore('project', {
             { label: 'Nuxt', icon: 'i-uil:nuxtjs'},
             { label: 'Tailwind CSS', icon: 'i-uil:tailwindcss' },
             { label: 'Bootstrap', icon: 'i-uil:bootstrap' },
-            { label: 'websocket', icon: 'i-uil:websocket' },
+            { label: 'Axios', icon: 'i-uil:axios' },
+            { label: 'Websocket', icon: 'i-uil:websocket' },
           ],
         },
         {
