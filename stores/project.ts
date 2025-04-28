@@ -168,7 +168,7 @@ export const useProjectStore = defineStore('project', {
           role: "Frontend Developer",
           teamSize: 5,
           problemSolved: [
-            "Dynamic favicon and notifications.",
+            "kanban view for task management.",
             "AI chatbot for user assistance.",
           ],
           technologies: [
