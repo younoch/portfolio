@@ -47,7 +47,7 @@ export const useProjectStore = defineStore('project', {
           technologies: [
             { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:nuxtjs" },
-            { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Tailwind CSS", expertise: "advanced", icon: "i-mdi:tailwind" },
             { label: "Node.js", expertise: "intermediate", icon: "i-uil:nodejs" },
             { label: "Axios", expertise: "intermediate", icon: "i-uil:axios" },
             { label: "PostgreSQL", expertise: "intermediate", icon: "i-uil:postgresql" },
@@ -68,7 +68,7 @@ export const useProjectStore = defineStore('project', {
           thumbnail: "/images/Bytelancer-ss-1.png",
           link: "https://bytelancers.com",
 
-          featured: true,
+          featured: false,
           keyFeatures: [
             {
               label: "Freelancer Marketplace",
@@ -181,28 +181,82 @@ export const useProjectStore = defineStore('project', {
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
           ],
         },
+        {
+          id: 4,
+          label: "CourseCab: An Online Learning Platform",
+          slug: "coursecab-online-learning-platform",
+          projectOverview: "CourseCab is an online learning platform that connects educators with students. It offers a wide range of courses, interactive learning tools, and a community for learners to engage and collaborate.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
+          status: "completed",
+          thumbnail: "/images/coursecab-ss-1.png",
+          link: "https://www.coursecab.com/",
+
+          featured: true,
+          keyFeatures: [
+            {
+              label: "Course Management",
+              description: "Allows educators to create, manage, and sell courses."
+            },
+            {
+              label: "Interactive Learning Tools",
+              description: "Includes quizzes, forums, and live sessions for enhanced learning."
+            },
+            {
+              label: "Community Engagement",
+              description: "Connects learners with peers and educators for collaboration."
+            },
+            {
+              label: "Exam Management",
+              description: "Facilitates online exams and assessments for students."
+            },
+            {
+              label: "Payment Integration",
+              description: "Supports multiple payment methods for course purchases."
+            },
+            {
+              label: "User Profiles",
+              description: "Personalized profiles for students and educators."
+            }
+          ],
+          role: "Frontend Developer",
+          teamSize: 5,
+          problemSolved: [
+            "Dynamic favicon and notifications.",
+            "AI chatbot for user assistance.",
+          ],
+          technologies: [
+            { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Axios.js", expertise: "intermediate", icon: ""}
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
+          ],
+        },
       ],
       cetegorizedSkills: [
         {
           label: 'Frontend',
           icon: 'i-uil:frontend',
           skills: [
-            { label: 'JavaScript', icon: 'i-uil:javascript' },
-            { label: 'TypeScript', icon: 'i-uil:typescript' },
+            { label: 'JavaScript', icon: 'i-uil:java-script' },
+            { label: 'TypeScript', icon: 'i-tabler:brand-typescript' },
             { label: 'Vue', icon: 'i-uil:vuejs' },
-            { label: 'Nuxt', icon: 'i-uil:nuxtjs'},
-            { label: 'Tailwind CSS', icon: 'i-uil:tailwindcss' },
-            { label: 'Bootstrap', icon: 'i-uil:bootstrap' },
-            { label: 'Axios', icon: 'i-uil:axios' },
-            { label: 'Websocket', icon: 'i-uil:websocket' },
+            { label: 'Nuxt', icon: 'i-mdi:nuxt'},
+            { label: 'Tailwind CSS', icon: 'i-mdi:tailwind' },
+            { label: 'Bootstrap', icon: 'i-tabler:brand-bootstrap' },
+            { label: 'Axios', icon: 'i-simple-icons:axios' },
+            { label: 'Websocket', icon: 'i-logos:websocket' },
           ],
         },
         {
           label: 'Backend',
           icon: 'i-uil:backend',
           skills: [
-            { label: 'Node.js', icon: 'i-uil:nodejs' },
-            { label: 'Django', icon: 'i-uil:djangoproject' },
+            { label: 'Node.js', icon: 'i-devicon-plain:nodejs-wordmark' },
+            { label: 'Django', icon: 'i-tabler:brand-django' },
             { label: 'REST APIs', icon: 'i-uil:restapi' },
             { label: 'PostgreSQL', icon: 'i-uil:postgresql' },
             { label: 'Redis', icon: 'i-uil:redis' },

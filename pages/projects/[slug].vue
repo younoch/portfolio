@@ -63,15 +63,22 @@ if (!project.value) {
         </div>
         
         <div class="grid grid-cols-1 sm:grid-cols-3 mb-4 gap-2">
-          <ULink 
-            as="button" 
-            target="_blank" 
-            :to="project?.link" 
-            active-class="text-sky-400"
-            class="text-sm sm:text-base truncate"
-          >
-            {{ project?.link }}
-          </ULink>
+          <div>Team Size: {{ project?.teamSize }} Members</div>
+          <div></div>
+          <div class="flex items-center">
+            <p>
+              Preview: 
+            </p>
+            <ULink 
+              as="button" 
+              target="_blank"
+              :to="project?.link" 
+              active-class="text-sky-400"
+              class="text-sm sm:text-base truncate text-sky-500 hover:text-sky-600 font-medium ml-2"
+            >
+              {{ project?.link }}
+            </ULink>
+          </div>
         </div>
         
         <section class="text-gray-700 prose max-w-none">

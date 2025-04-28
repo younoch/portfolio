@@ -1,7 +1,7 @@
 <template>
 <section class="py-2 md:py-4 flex items-center bg-[#f8f9fc] min-h-[auto] md:min-h-[559px] overflow-hidden relative">
   <div class=" max-w-5xl mx-auto w-full">
-    <div class="flex flex-col md:flex-row items-center justify-between relative z-10 gap-8 md:gap-0">
+    <div class="flex flex-col md:flex-row items-center justify-between relative z-10 gap-3 md:gap-0">
       <!-- Text Content (order changes on mobile) -->
       <div class="w-full md:w-[58%] order-2 md:order-1 flex-1 max-w-full md:max-w-[576px]">
         <p class="text-base md:text-lg leading-6 md:leading-7 text-sky-700 font-semibold mb-2">

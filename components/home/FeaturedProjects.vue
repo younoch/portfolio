@@ -17,7 +17,7 @@
     <!-- Swiper container -->
     <ClientOnly>
       <swiper-container ref="containerRef" class="">
-        <swiper-slide class="swiper-slide" v-for="(slide, idx) in personalProjects" :key="idx">
+        <swiper-slide class="swiper-slide" v-for="(slide, idx) in featuredProjects" :key="idx">
           <ProjectCard :project="slide" />
         </swiper-slide>
       </swiper-container>
@@ -27,14 +27,14 @@
           color="sky" 
           variant="solid" 
           @click="swiper.prev()" 
-          class="px-4 py-2 text-sm md:text-base"
+          class="navigation-button"
         />
         <UButton 
           label="Next" 
           color="sky" 
           variant="solid" 
           @click="swiper.next()" 
-          class="px-4 py-2 text-sm md:text-base"
+          class="navigation-button"
         />
       </div>
     </ClientOnly>
@@ -90,12 +90,20 @@ const swiper = useSwiper(containerRef, {
 });
 
 const { personalProjects } = useProjectStore();
+
+const featuredProjects = computed(() => {
+  return personalProjects.filter((project) => project.featured);
+});
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .swiper-pagination-bullet-active {
   height: 50px !important;
   background-color: red !important;
+}
+
+.navigation-button {
+  @apply px-2 py-1 md:px-4 md:py-2 text-sm md:text-base;
 }
 
 </style>

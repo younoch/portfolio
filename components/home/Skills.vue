@@ -23,7 +23,7 @@
           <div class="text-sky-900 text-base sm:text-lg leading-6 sm:leading-7">
             <UIcon :name="item.icon" />
           </div>
-          <span class="font-medium text-xs sm:text-sm leading-5 ml-2">{{ item.label }}</span>
+          <span class="font-medium text-xs sm:text-sm leading-5 ml-2">{{ item.label }} {{ item.skills.length }}</span>
         </div>
       </template>
       <template #item="{ item }">

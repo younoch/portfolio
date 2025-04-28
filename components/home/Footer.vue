@@ -29,10 +29,10 @@
         <nuxt-link to="https://stackoverflow.com/users/14935206/younoch" target="_blank" rel="noopener noreferrer" aria-label="Stackoverflow"
           class="transition-all duration-150 ease-in-out text-gray-500 p-2 rounded-full ml-4 sm:ml-6 no-underline hover:text-gray-900">
           <span class="sr-only">Stackoverflow</span>
-          <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="w-5 h-5 sm:w-6 sm:h-6 block align-middle">
+            <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="w-5 h-5 sm:w-6 sm:h-6 block align-middle">
             <path
-              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-          </svg>
+              d="M17.5 20.5v-5h2v7h-15v-7h2v5h11zm-11.5-3h10v2h-10v-2zm1.2-3.8l.4-1.9 9.8 2.1-.4 1.9-9.8-2.1zm2.1-4.9l.9-1.7 8.5 4.5-.9 1.7-8.5-4.5zm3.3-4.5l1.4-1.4 6.4 6.4-1.4 1.4-6.4-6.4zm-5.4 12.2h10v2h-10v-2z"></path>
+            </svg>
         </nuxt-link>
       </div>
     </div>
