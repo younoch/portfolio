@@ -38,7 +38,7 @@ const filterProjectsByTech = computed(() => {
           <div v-for="(project, index) in filterProjectsByTech" :key="index"
             class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <NuxtImg
+            <img
               :src="project.thumbnail"
               :alt="project.name"
               width="100%"

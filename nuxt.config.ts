@@ -3,14 +3,10 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.scss'],
   
-  modules: ['@nuxt/ui', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/image'],
+  modules: ['@nuxt/ui', '@pinia/nuxt', 'nuxt-swiper'],
   ui: {},
-  image: {
-    dir: 'public',
-    provider: 'static',
-  },
   app: {
-    baseURL: '/portfolio/', // Replace 'portfolio' with your repo name
+    baseURL: '/portfolio/', 
     buildAssetsDir: 'assets',
     head: {
       link: [
@@ -23,10 +19,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-  routeRules: {
-    '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=31536000' } },
-    '/public/**': { headers: { 'Cache-Control': 'public, max-age=31536000' } },
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true }

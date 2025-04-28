@@ -18,7 +18,7 @@ if (!project.value) {
     <section class="mx-auto">
       <article class="max-w-5xl mx-auto bg-white rounded-lg shadow-sm">
         <figure class="mb-6 -mx-4 sm:-mx-6 -mt-6 sm:-mt-8 overflow-hidden rounded-t-lg">
-          <NuxtImg
+          <img
             :src="project?.thumbnail"
             width="100%"
             height="auto"
