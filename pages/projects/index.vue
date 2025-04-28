@@ -43,7 +43,6 @@ const filterProjectsByTech = computed(() => {
               :alt="project.name"
               width="100%"
               height="auto"
-              loading="lazy"
               class="w-full h-48 object-cover object-center"
             />
             <div class="p-5">

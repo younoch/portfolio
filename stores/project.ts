@@ -65,7 +65,7 @@ export const useProjectStore = defineStore('project', {
           startDate: "2022-01-01",
           endDate: "2022-06-01",
           status: "completed",
-          thumbnail: "/images/Bytelancer-ss-1.png",
+          thumbnail: "/portfolio/images/Bytelancer-ss-1.png",
           link: "https://bytelancers.com",
 
           featured: false,
@@ -189,7 +189,7 @@ export const useProjectStore = defineStore('project', {
           startDate: "2022-01-01",
           endDate: "2022-06-01",
           status: "completed",
-          thumbnail: "/images/coursecab-ss-1.png",
+          thumbnail: "/portfolio/images/coursecab-ss-1.png",
           link: "https://www.coursecab.com/",
 
           featured: true,
