@@ -228,7 +228,84 @@ export const useProjectStore = defineStore('project', {
           technologies: [
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
-            { label: "Axios.js", expertise: "intermediate", icon: ""}
+            { label: "Axios.js", expertise: "intermediate", icon: ""},
+            { label: "Vuetify.js", expertise: "intermediate", icon: ""}
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
+          ],
+        },
+        {
+          id: 5,
+          label: "TorkGO: Metaverse Web3.0 IDO/INO launchpad Vue js , Nuxt js Template",
+          slug: "torkgo-launchpad",
+          projectOverview: "TorkGo is fully complete template for IDO/IDO/ICO,NFT crypto Digital marketplace Vue 3 and Nuxt 3 template.TorkGo Template has a modern design and beautiful color Palettes. It meets all the need for making Crypto token Launchpad related to various types of pages included in the template package. It have all the necessary section and elements Like as Staking, Farming, Tokenomics, Tier Systems, APR Farming, KYC verification form, crypto tokens, and many more.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
+          status: "completed",
+          thumbnail: "https://market-resized.envatousercontent.com/themeforest.net/files/633968965/01_preview.__large_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=c21f24cbba09d4c4ee5bfdb0d15ad132eda633a11f88c00ef8e9b95f69f55167",
+          link: "https://thetork.com/demos/html/torkgo/index.html",
+
+          featured: true,
+          keyFeatures: [
+            {
+              label: "Modern Design & Beautiful UI",
+              description: "Contemporary design with beautiful color schemes, typography, and dark layout options."
+            },
+            {
+              label: "Multiple Home Pages & Farming Pages",
+              description: "3 different home page layouts and dedicated farming/staking sections."
+            },
+            {
+              label: "IDO Ranking & Projects",
+              description: "Features for ranking Initial DEX Offerings and showcasing projects."
+            },
+            {
+              label: "Tier System & Tokenomics",
+              description: "Hierarchical access levels and detailed token economics display."
+            },
+            {
+              label: "Metaverse Theme & Dark Mode",
+              description: "Futuristic metaverse-inspired design with dark layout support."
+            },
+            {
+              label: "Vue 3, Nuxt 3 & SCSS",
+              description: "Built with Vue 3, Nuxt 3, and SCSS for powerful frontend development."
+            },
+            {
+              label: "Bootstrap 5 & Responsive Design",
+              description: "Fully responsive and compatible with Bootstrap 5 for seamless adaptability."
+            },
+            {
+              label: "SEO & Cross-Browser Compatible",
+              description: "Optimized for search engines and works across all major browsers."
+            },
+            {
+              label: "Free Google Fonts & Icons",
+              description: "Uses free, high-quality Google Fonts and icon sets."
+            },
+            {
+              label: "Customizable & Well-Documented",
+              description: "100% customizable codebase with comprehensive documentation."
+            },
+            {
+              label: "Multi-Step KYC & Security",
+              description: "Secure and streamlined Know Your Customer verification process."
+            }
+          ],
+          role: "Frontend Developer",
+          teamSize: 5,
+          problemSolved: [
+            "Developed entire frontend of the application.",
+          ],
+          technologies: [
+            { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "JavaScript", expertise: "intermediate", icon: "i-uil:javascript" },
+            { label: "SCSS", expertise: "intermediate", icon: "i-uil:sass" },
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
