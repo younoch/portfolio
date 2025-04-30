@@ -216,6 +216,12 @@ definePageMeta({
   title: "About Me",
   description: "Learn more about me and my journey as a developer.",
 });
+useHead({
+  meta: [
+    { property: 'og:title', content: 'About | Mohammad Younoch - Full Stack Developer' },
+    { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
+  ]
+})
 const { getTechList } = useProjectStore();
 </script>
 

@@ -173,7 +173,7 @@ export const useProjectStore = defineStore('project', {
           ],
           technologies: [
             { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
-            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-tabler:brand-bootstrap" },
             { label: "Nuxt.js", expertise: "intermediate", icon: ""}
           ],
           screenshots: [
@@ -227,9 +227,9 @@ export const useProjectStore = defineStore('project', {
           ],
           technologies: [
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
-            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-tabler:brand-bootstrap" },
             { label: "Axios.js", expertise: "intermediate", icon: ""},
-            { label: "Vuetify.js", expertise: "intermediate", icon: ""}
+            { label: "Vuetify.js", expertise: "intermediate", icon: "i-mdi:vuetify"}
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
@@ -303,7 +303,7 @@ export const useProjectStore = defineStore('project', {
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
-            { label: "Bootstrap", expertise: "advanced", icon: "i-uil:tailwindcss" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-tabler:brand-bootstrap" },
             { label: "JavaScript", expertise: "intermediate", icon: "i-uil:javascript" },
             { label: "SCSS", expertise: "intermediate", icon: "i-uil:sass" },
           ],
@@ -323,6 +323,7 @@ export const useProjectStore = defineStore('project', {
             { label: 'Vue', icon: 'i-uil:vuejs' },
             { label: 'Nuxt', icon: 'i-mdi:nuxt'},
             { label: 'Tailwind CSS', icon: 'i-mdi:tailwind' },
+            { label: 'Vuetify', icon: 'i-mdi:vuetify' },
             { label: 'Bootstrap', icon: 'i-tabler:brand-bootstrap' },
             { label: 'Axios', icon: 'i-simple-icons:axios' },
             { label: 'Websocket', icon: 'i-logos:websocket' },

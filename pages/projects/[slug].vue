@@ -1,9 +1,18 @@
 <script setup lang="ts">
+
+
 const route = useRoute();
 const { slug } = route.params;
 const { getProjectBySlug } = useProjectStore();
 
 const project = computed(() => getProjectBySlug(slug as string));
+
+useHead({
+  meta: [
+    { property: 'og:title', content: `${project.value?.label} | Mohammad Younoch - Full Stack Developer` },
+    { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
+  ]
+})
 
 if (!project.value) {
   throw createError({
@@ -30,7 +39,7 @@ if (!project.value) {
         
         <header class="mb-6">
           <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">
-            {{ project?.name }}
+            {{ project?.label }}
           </h1>
         </header>
         

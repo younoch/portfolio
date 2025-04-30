@@ -6,23 +6,16 @@
   </main>
 </template>
 <script setup lang="ts">
-import { ref } from "vue";
+
+useHead({
+  meta: [
+    { property: 'og:title', content: 'Home | Mohammad Younoch - Full Stack Developer' },
+    { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
+  ]
+});
 
 import UserCard from "@/components/home/UserCard.vue";
 import FeaturedProjects from "@/components/home/FeaturedProjects.vue";
 import Skills from "@/components/home/Skills.vue";
 
-
-
-interface Project {
-  id: number;
-  name: string;
-  description: string;
-}
-
-const projects = ref<Project[]>([
-  { id: 1, name: "Project One", description: "Description of project one." },
-  { id: 2, name: "Project Two", description: "Description of project two." },
-  // Add more projects as needed
-]);
 </script>

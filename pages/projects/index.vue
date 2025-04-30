@@ -1,5 +1,13 @@
 <script setup lang="ts">
+
 const { personalProjects, getTechList } = useProjectStore();
+
+useHead({
+  meta: [
+    { property: 'og:title', content: 'Projects | Mohammad Younoch - Full Stack Developer' },
+    { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
+  ]
+})
 
 const selectedTech = ref<string>('');
 
