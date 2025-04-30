@@ -48,9 +48,8 @@ export const useProjectStore = defineStore('project', {
             { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:nuxtjs" },
             { label: "Tailwind CSS", expertise: "advanced", icon: "i-mdi:tailwind" },
-            { label: "Node.js", expertise: "intermediate", icon: "i-uil:nodejs" },
-            { label: "Axios", expertise: "intermediate", icon: "i-uil:axios" },
-            { label: "PostgreSQL", expertise: "intermediate", icon: "i-uil:postgresql" },
+            { label: "Node.js", expertise: "intermediate", icon: "i-devicon-plain:nodejs-wordmark" },
+            { label: "Axios", expertise: "intermediate", icon: "i-simple-icons:axios" },
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
@@ -120,7 +119,8 @@ export const useProjectStore = defineStore('project', {
           technologies: [
             { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Tailwind CSS", expertise: "advanced", icon: "i-uil:tailwindcss" },
-            { label: "Websocket", expertise: "intermediate", icon: ""}
+            { label: "Websocket", expertise: "intermediate", icon: ""},
+            { label: "Socket.io", expertise: "intermediate", icon: "simple-icons:socketdotio"},
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
@@ -228,8 +228,8 @@ export const useProjectStore = defineStore('project', {
           technologies: [
             { label: "Nuxt.js", expertise: "advanced", icon: "i-uil:vuejs" },
             { label: "Bootstrap", expertise: "advanced", icon: "i-tabler:brand-bootstrap" },
-            { label: "Axios.js", expertise: "intermediate", icon: ""},
-            { label: "Vuetify.js", expertise: "intermediate", icon: "i-mdi:vuetify"}
+            { label: "Axios", expertise: "intermediate", icon: "i-simple-icons:axios"},
+            { label: "Vuetify", expertise: "intermediate", icon: "i-mdi:vuetify"}
           ],
           screenshots: [
             "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
@@ -327,6 +327,7 @@ export const useProjectStore = defineStore('project', {
             { label: 'Bootstrap', icon: 'i-tabler:brand-bootstrap' },
             { label: 'Axios', icon: 'i-simple-icons:axios' },
             { label: 'Websocket', icon: 'i-logos:websocket' },
+            { label: 'Socket.io', icon: 'simple-icons:socketdotio' },
           ],
         },
         {
@@ -336,7 +337,7 @@ export const useProjectStore = defineStore('project', {
             { label: 'Node.js', icon: 'i-devicon-plain:nodejs-wordmark' },
             { label: 'Django', icon: 'i-tabler:brand-django' },
             { label: 'REST APIs', icon: 'i-uil:restapi' },
-            { label: 'PostgreSQL', icon: 'i-uil:postgresql' },
+            { label: 'PostgreSQL', icon: 'simple-icons:postgresql' },
             { label: 'Redis', icon: 'i-uil:redis' },
             { label: 'SQLite', icon: 'i-uil:sqlite' },
           ],

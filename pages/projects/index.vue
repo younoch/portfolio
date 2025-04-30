@@ -3,6 +3,7 @@
 const { personalProjects, getTechList } = useProjectStore();
 
 useHead({
+  title: 'Projects | Mohammad Younoch - Full Stack Developer',
   meta: [
     { property: 'og:title', content: 'Projects | Mohammad Younoch - Full Stack Developer' },
     { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },

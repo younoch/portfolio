@@ -212,16 +212,16 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  title: "About Me",
-  description: "Learn more about me and my journey as a developer.",
-});
+
+// This will set the actual browser tab title
 useHead({
+  title: 'About | Mohammad Younoch - Full Stack Developer',
   meta: [
     { property: 'og:title', content: 'About | Mohammad Younoch - Full Stack Developer' },
-    { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
-  ]
-})
+    { property: 'og:description', content: 'Get to know more about my background and experience.' },
+  ]   
+});
+
 const { getTechList } = useProjectStore();
 </script>
 

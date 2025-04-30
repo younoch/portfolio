@@ -8,6 +8,7 @@ const { getProjectBySlug } = useProjectStore();
 const project = computed(() => getProjectBySlug(slug as string));
 
 useHead({
+  title: `${project.value?.label} | Mohammad Younoch - Full Stack Developer`,
   meta: [
     { property: 'og:title', content: `${project.value?.label} | Mohammad Younoch - Full Stack Developer` },
     { property: 'og:description', content: 'Explore my projects and skills as a full stack developer.' },
