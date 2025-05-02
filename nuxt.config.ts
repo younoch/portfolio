@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/css/main.scss'],
   
-  modules: ['@nuxt/ui', '@pinia/nuxt', 'nuxt-swiper'],
+  modules: ['@nuxt/ui', '@pinia/nuxt'],
   ui: {},
   app: {
     baseURL: '/portfolio/', 
