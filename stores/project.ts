@@ -182,6 +182,50 @@ export const useProjectStore = defineStore('project', {
           ],
         },
         {
+          id: 6,
+          label: "JobPoint: Recruitment Management System",
+          slug: "jobpoint-recruitment-management-system",
+          projectOverview: "JobPoint is a unified platform designed to help job seekers, agents & employers to manage the hiring process more efficiently with collaboration. JobPoint illustrates the hiring visible to companies who are looking for the skills and experiences. It’s user-friendly design makes the entire hiring process easier for both candidates and the companies.",
+          startDate: "2022-01-01",
+          endDate: "2022-06-01",
+          status: "completed",
+          thumbnail: "https://market-resized.envatousercontent.com/codecanyon.net/files/615181035/Preview%20Image%20-%20Job%20Point%203.7.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=5e825ea6e9d7cc979350e6eb6b204da144f540d0f5993ef07cbc6641ad32c177",
+          link: "https://jobpoint.gainhq.com/",
+
+          featured: true,
+          keyFeatures: [
+            {
+              label: "User Experience & UI",
+              description: "Modern Vue/Nuxt UI with dark/light mode, RTL support, and dynamic components. Latest updates include: Candidate Login/Profile (v3.0), Google Jobs integration, SEO URLs, enhanced career page design, and embedded video support."
+            },
+            {
+              label: "Data Management",
+              description: "Module-wise data export (v3.4+), Excel/candidate import, customizable application forms with multi-select fields, and permission-controlled exports."
+            },
+            {
+              label: "Integrations",
+              description: "Zoom meeting scheduling (v1.4), IMAP/SMTP email sync (v2.0), and Google Jobs compatibility (v3.0)."
+            }
+          ],
+          role: "Frontend Developer",
+          teamSize: 8,
+          problemSolved: [
+            "kanban view for task management.",
+            "AI chatbot for user assistance.",
+          ],
+          technologies: [
+            { label: "Vue.js", expertise: "advanced", icon: "i-uil:vuejs" },
+            { label: "Bootstrap", expertise: "advanced", icon: "i-tabler:brand-bootstrap" },
+            { label: "Nuxt.js", expertise: "intermediate", icon: ""},
+            { label: "Axios", expertise: "intermediate", icon: "i-simple-icons:axios"},
+            { label: "Vuex", expertise: "intermediate", icon: "i-simple-icons:vuex"},
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot1.png",
+            "https://raw.githubusercontent.com/digin1/web-images/main/ansible-screenshot2.png"
+          ],
+        },
+        {
           id: 4,
           label: "CourseCab: An Online Learning Platform",
           slug: "coursecab-online-learning-platform",
