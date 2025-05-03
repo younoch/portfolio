@@ -103,28 +103,6 @@
             </div>
             <div>
               <h3 class="text-xl font-semibold mb-4 text-gray-900">
-                Education
-              </h3>
-              <div class="space-y-3">
-                <h4 class="text-lg font-medium text-gray-800">
-                  My Graduation at Cox's Bazar International University
-                </h4>
-                <div class="video-container">
-                  <div class="relative w-full pb-[56.25%]">
-                    <iframe
-                      class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-                      src="https://www.youtube.com/watch?v=pprxf-jNwQM"
-                      title="Full Stack Developer | Mohammad Younoch"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen=""
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold mb-4 text-gray-900">
                 Contact Information
               </h3>
               <ul class="space-y-3 text-gray-700">
@@ -203,6 +181,28 @@
                   ><span>English, Bangla</span>
                 </li>
               </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-4 text-gray-900">
+                Education
+              </h3>
+              <div class="space-y-3">
+                <h4 class="text-lg font-medium text-gray-800">
+                  My Graduation at Cox's Bazar International University
+                </h4>
+                <div class="video-container">
+                  <div class="relative w-full pb-[56.25%]">
+                    <iframe
+                      class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                      src="https://www.youtube.com/watch?v=pprxf-jNwQM"
+                      title="Full Stack Developer | Mohammad Younoch"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen=""
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
