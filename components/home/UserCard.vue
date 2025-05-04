@@ -71,6 +71,10 @@
             class="shadow-sm bg-white rounded-full text-[#333944] flex items-center justify-center">
             <UIcon name="i-mdi:linkedin" class="text-2xl md:text-3xl" />
           </nuxt-link>
+          <nuxt-link target="_blank" to="/Mohammad-Younoch-web-developer.pdf"
+            class="shadow-sm bg-white rounded-full text-[#333944] flex items-center justify-center">
+            <UIcon name="i-mdi:document" class="text-2xl md:text-3xl" />
+          </nuxt-link>
         </div>
       </div>
 

@@ -36,24 +36,18 @@
                 <li>
                   <strong>Full Stack Web Developer</strong> at AI Dock Builder
                   (Canadian Farm)
-                  <span class="text-muted">• Remote • 2022–Present</span>
+                  <span class="text-muted">• Remote • Jan 2024 – Feb 2025</span>
                 </li>
 
                 <li>
                   <strong>Frontend Developer (Vue.js)</strong> at Gain Solutions
                   Ltd
                   <span class="text-muted"
-                    >• Dhaka, Bangladesh • Jun 2022–Aug 2022</span
+                    >• Dhaka, Bangladesh • Feb 2023 - Dec,2023</span
                   >
                 </li>
                 <li>
-                  Served as a <strong>PHP Developer</strong> at Veeble Softtech
-                  Pvt Ltd in India (2021-2022)
-                </li>
-                <li>
-                  Spent 5 years as a
-                  <strong>Linux System Administrator</strong> at Veeble Softtech
-                  Pvt Ltd in India (2016-2021)
+                  Served as a <strong>Frontend Developer (Nuxt.js)</strong> at Nextive Solutions in Dhaka, Bangladesh (August 2022- Jan,2023)
                 </li>
               </ul>
               <h2>Education</h2>
@@ -70,7 +64,7 @@
               </p>
               <ul>
                 <li>Front-end development with React and modern JavaScript</li>
-                <li>Back-end development using C# and PHP</li>
+                <li>Back-end development using JavaScript and Python</li>
                 <li>Linux system administration and server management</li>
                 <li>IT security assessment and implementation</li>
                 <li>Web application architecture and optimization</li>
