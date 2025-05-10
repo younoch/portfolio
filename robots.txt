@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://younoch.github.io/portfolio/sitemap.xml
