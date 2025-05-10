@@ -7,9 +7,5 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  htmlAttrs: {
-    class: 'light'
-  }
-})
+
 </script>
